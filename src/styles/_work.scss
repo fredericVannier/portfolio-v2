@@ -1,0 +1,66 @@
+@import "./variables";
+
+.webdev-wrapper {
+  background: $mainColor;
+  color: $white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.styled-forme {
+  height: 5rem;
+  width: 20rem;
+  background: $accentColor;
+  top: 17vh;
+  margin-left: 4vw;
+  position: relative;
+  z-index: 1;
+}
+
+.left-part {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-description {
+  width: 30rem;
+  padding-bottom: 5rem;
+}
+
+.right-part {
+  width: 50vw;
+  height: 100vh;
+  background: $secondColor;
+}
+
+.big-title {
+  font-weight: 800;
+  font-size: 6rem;
+  line-height: 0.7;
+  font-variant-caps: all-small-caps;
+  position: absolute;
+  margin-top: 13vh;
+  margin-left: 5vw;
+  z-index: 2;
+}
+
+.previews-wrap {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+  top: 0;
+  width: 100vw;
+  scroll-behavior: smooth;
+}
+
+.preview {
+  height: 10rem;
+  width: 30rem;
+  background: $secondAccentColor;
+  margin-left: 30px;
+}
