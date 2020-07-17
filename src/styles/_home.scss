@@ -12,6 +12,7 @@
     padding-top: 40vh;
     padding-left: 5vw;
     position: absolute;
+    z-index: 1;
 }
 
 .first {
@@ -26,6 +27,7 @@
     padding-left: 5vw;
     padding-top: 8vh;
     position: fixed;
+    z-index: 2;
 }
 
 .brandName {
@@ -33,6 +35,9 @@
     font-variant-caps: all-small-caps;
     letter-spacing: .7rem;
     font-weight: 200;
-
     color: $white;
+    
+    &:hover {
+        color: $accentColor;
+    }
 }

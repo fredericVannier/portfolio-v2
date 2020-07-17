@@ -3,11 +3,16 @@ import React, { Component } from "react";
 export class Webdev extends Component {
   render() {
     return (
-      <div className="webdev-wrapper">
+      <div className="work-wrapper">
         <div className="left-part">
           <p className="job-description">
-            Fort d’une expérience de 7 ans dans le domaine du graphisme, je
-            maîtrise parfaitement mon sujet.
+            Passinonné par le graphisme et les technologies web, c'est tout
+            naturellement que je me suis tournée vers le métier de développeur.
+            <br />
+            <br />
+            J'ai donc rejoins les rangs du bootcamp Ironhack, à Barcelone, pour
+            devenir Développeur Full Stack. Durant cette formation de 3 mois,
+            j'ai pu réaliser ces 3 projets ainsi que mon premier site personnel.
           </p>
         </div>
         <div className="right-part">

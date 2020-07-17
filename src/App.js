@@ -3,6 +3,7 @@ import './App.scss';
 import Name from './components/Name';
 import Button from './components/Button';
 import Webdev from './Pages/Webdev';
+import Graphist from './Pages/Graphist';
 import Home from './Pages/Home';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Button />
       <Home />
       <Webdev />
+      <Graphist />
     </div>
   );
 }
