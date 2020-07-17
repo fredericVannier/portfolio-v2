@@ -27,14 +27,15 @@ export class Webdev extends Component {
           </div>
         </div>
         <div className="left-part">
-        <p className="job-description">
-            Passinonné par le graphisme et les technologies web, c'est tout
-            naturellement que je me suis tournée vers le métier de développeur.
+          <p className="job-description">
+            De formation bac +2 en Communication et Marketing et animé par la
+            passion du design, je me suis très vite spécialisé dans le
+            graphisme.
             <br />
             <br />
-            J'ai donc rejoins les rangs du bootcamp Ironhack, à Barcelone, pour
-            devenir Développeur Full Stack. Durant cette formation de 3 mois,
-            j'ai pu réaliser ces 3 projets ainsi que mon premier site personnel.
+            Fort de 7 ans d'expérience, je souhaite toujours m'améliorer et
+            apprendre de nouvelles tendances. Au cours de ces années, j'ai pu
+            réaliser des projets divers et variés que vous pouvez consulter ici.
           </p>
         </div>
       </div>
