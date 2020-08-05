@@ -41,3 +41,41 @@
         color: $accentColor;
     }
 }
+
+.sideMenu-container {
+    position: fixed;
+    right: 0;
+    width: 200px;
+    
+    .sideMenu-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .left-bar {
+        height: 100vh;
+        width: 1px;
+        background: rgba($color: #fff, $alpha: .1);
+    }
+
+    .side-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color: $accentColor;
+        font-size: 1.1rem;
+        font-weight: 700;
+
+        .up {
+            margin-top: 8vh;
+        }
+
+        .down {
+            margin-bottom: 8vh;
+        }
+    }
+
+
+}
+

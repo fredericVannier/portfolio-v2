@@ -5,7 +5,7 @@ export class Webdev extends Component {
     return (
       <div className="work-wrapper">
         <div className="right-part">
-          <div className="title-wrap">
+          <div className="title-wrap-2">
             <h1 className="big-title">
               Gra
               <br />
