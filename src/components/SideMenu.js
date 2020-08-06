@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import About from "../Pages/Contact";
+import { Link } from "react-router-dom";
 
 export class SideMenu extends Component {
   render() {
@@ -9,7 +8,6 @@ export class SideMenu extends Component {
         <div className="sideMenu-wrapper">
           <div className="left-bar"></div>
           <div className="side-menu">
-            <p className="up">Réalisations</p>
             <Link to="/contact">
               <p className="down">Contact</p>
             </Link>

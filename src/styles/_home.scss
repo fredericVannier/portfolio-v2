@@ -55,6 +55,7 @@
     .sideMenu-wrapper {
         display: flex;
         justify-content: space-evenly;
+        justify-items: end;
     }
 
     .left-bar {
@@ -66,7 +67,7 @@
     .side-menu {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
         color: $accentColor;
         font-size: 1.1rem;
