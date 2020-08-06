@@ -7,19 +7,20 @@ import Webdev from "./Pages/Webdev";
 import Graphist from "./Pages/Graphist";
 import Home from "./Pages/Home";
 import SideMenu from "./components/SideMenu";
-import About from "./Pages/About";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Name />
-        <Button />
-        <SideMenu />
-        <Home />
-        <Webdev />
-        <Graphist />
-        
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
+          </Route>
+        </Switch>
       </div>
     </Router>
   );

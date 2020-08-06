@@ -1,5 +1,10 @@
 @import "styles/variables";
 
+.home-page {
+    height: 100vh;
+    width: 100vw;
+}
+
 .home-wrapper {
     background: $mainColor;
     color: $white;

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import About from "../Pages/About";
+import About from "../Pages/Contact";
 
 export class SideMenu extends Component {
   render() {
@@ -10,14 +10,9 @@ export class SideMenu extends Component {
           <div className="left-bar"></div>
           <div className="side-menu">
             <p className="up">Réalisations</p>
-            <Link to="/about">
+            <Link to="/contact">
               <p className="down">Contact</p>
             </Link>
-            <Switch>
-              <Route path="/about">
-                <About />
-              </Route>
-            </Switch>
           </div>
         </div>
       </div>

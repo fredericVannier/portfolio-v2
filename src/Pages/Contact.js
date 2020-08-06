@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function About() {
+export default function Contact() {
     return (
         <div>
             <h1>Contact page</h1>
-            <p className="about-text">Contact page</p>
+            <p className="contact-text">Contact page</p>
         </div>
     )
 }
