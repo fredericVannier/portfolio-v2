@@ -5,7 +5,9 @@ import Webdev from "./Pages/Webdev";
 import Graphist from "./Pages/Graphist";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
-import Project1 from "./Pages/Project1";
+import Topit from "./Pages/Topit";
+import SpaceExplorer from "./Pages/SpaceExplorer";
+import Petsit from "./Pages/Petsit";
 
 function App() {
   return (
@@ -24,8 +26,14 @@ function App() {
           <Route exact path="/graphit">
             <Graphist />
           </Route>
-          <Route exact path="/projet1">
-            <Project1 />
+          <Route exact path="/topit">
+            <Topit />
+          </Route>
+          <Route exact path="/space-explorer">
+            <SpaceExplorer />
+          </Route>
+          <Route exact path="/petsit">
+            <Petsit />
           </Route>
         </Switch>
       </div>

@@ -1,26 +1,27 @@
 import React from "react";
 import { Slide } from "react-slideshow-image";
-import doom from "../images/doom.jpg";
-import chelou from "../images/chelou.webp";
-import grumpy from "../images/grumpy.jpg";
 import { Link } from "react-router-dom";
 
 const proprietes = {
-  duration: 3000,
+  duration: 2000,
   transitionDuration: 500,
   infinite: true,
-  arrows: false
+  arrows: false,
 };
 
 const Slideshow = () => {
   return (
     <div className="containerSlide">
       <Slide {...proprietes}>
-        <Link to="/projet1">
+        <Link to="/Topit">
           <div className="slide-1"></div>
         </Link>
-        <div className="slide-2"></div>
-        <div className="slide-3"></div>
+        <Link to="/space-explorer">
+          <div className="slide-2"></div>
+        </Link>
+        <Link to="/petsit">
+          <div className="slide-3"></div>
+        </Link>
       </Slide>
     </div>
   );

@@ -21,15 +21,39 @@
       font-variant-caps: all-small-caps;
       position: absolute;
       z-index: 2;
-      margin-top: 9.7rem;
+      margin-top: 11.7rem;
     }
 
     .styled-forme-project {
       height: 5rem;
-      width: 20rem;
+      width: 15rem;
       background: $secondAccentColor;
       position: relative;
-      top: 10rem;
+      top: 12rem;
+      left: -10px;
+    }
+
+    .styled-forme-space-explorer {
+      height: 5rem;
+      width: 25rem;
+      background: $secondAccentColor;
+      position: relative;
+      top: 14rem;
+      left: -10px;
+      margin-bottom: 5rem;
+    }
+
+    .project-paragraph-container-space {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 250px;
+      margin-top: 20rem;
+
+      .project-paragraph {
+        width: 30rem;
+        text-align: justify;
+      }
     }
 
     .project-paragraph-container {
@@ -50,5 +74,9 @@
     height: 100vh;
     background-image: url("../images/doom.jpg");
     background-size: cover;
+  }
+
+  .previews-container {
+    margin: 0 auto;
   }
 }

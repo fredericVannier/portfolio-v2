@@ -9,18 +9,20 @@ export class Home extends Component {
   render() {
     return (
       <div className="home-wrapper">
-        <SideMenu />
-        <Button />
-        <Name />
-        <div className="home-page">
-          <h1 className="home-title">
-            Développeur <br />
-            <span className="first">Full Stack</span> et{" "}
-            <span className="second">Graphiste</span>
-          </h1>
+        <div className="home-container">
+          <SideMenu />
+          <Button />
+          <Name />
+          <div className="home-page">
+            <h1 className="home-title">
+              Développeur <br />
+              <span className="first">Full Stack</span> et{" "}
+              <span className="second">Graphiste</span>
+            </h1>
+          </div>
+          <Webdev />
+          <Graphist />
         </div>
-        <Webdev />
-        <Graphist />
       </div>
     );
   }
