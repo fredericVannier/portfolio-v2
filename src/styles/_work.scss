@@ -75,6 +75,7 @@
     overflow-x: auto;
     margin-top: 35vh;
     margin-left: 5vw;
+    width: 30vw;
 }
 
 .previews-container-2 {
@@ -90,8 +91,9 @@
   justify-content: flex-start;
   margin: 0 auto;
   top: 0;
-  width: 100vw;
+  width: 50vw;
   scroll-behavior: smooth;
+  transform: rotate(90deg);
 }
 
 .previews-wrap-2 {
@@ -117,3 +119,48 @@
   margin-left: 30px;
 }
 
+.containerSlide {
+    width: 650px;
+    margin: auto;
+    padding-top: 200px;
+    display: flex;
+    object-fit: fill;
+  }
+  
+  .containerSlide img {
+    height: 450px;
+    width: inherit;
+}
+
+.react-slideshow-wrapper {
+  display: flex;
+  width: 600px;
+  overflow: hidden;
+}
+
+.images-wrap {
+  display: flex;
+}
+
+.images-wrap div {
+  height: 450px;
+  width: 100%;
+}
+
+.slide-1 {
+  background-image: url('../images/doom.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.slide-2 {
+  background-image: url('../images/chelou.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+.slide-3 {
+  background-image: url('../images/grumpy.jpg');
+  background-size: cover;
+  background-position: center;
+}

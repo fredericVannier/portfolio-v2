@@ -1,0 +1,24 @@
+@import "./variables";
+
+.project-wrapper {
+    display: flex;
+    flex-direction: row;
+
+    .project-container-left {
+        width: 50vw;
+        height: 100vh;
+
+        .topit-title {
+            margin-top: 20vh;
+            margin-left: 10vw;
+            font-size: 3.5rem;
+        }
+    }
+
+    .project-container-right {
+        width: 50vw;
+        height: 100vh;
+        background-image: url('../images/doom.jpg');
+        background-size: cover;
+    }
+}

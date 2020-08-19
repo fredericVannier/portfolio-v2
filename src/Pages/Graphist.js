@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Fade from "react-reveal/Fade"
 
 export class Webdev extends Component {
   render() {
@@ -11,7 +12,9 @@ export class Webdev extends Component {
               <br />
               Phiste
             </h1>
-            <div className="styled-forme-2"></div>
+            <Fade right>
+              <div className="styled-forme-2"></div>
+            </Fade>
           </div>
           <div className="previews-container-2">
             <div className="previews-wrap-2">

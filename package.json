@@ -10,9 +10,13 @@
     "g": "^2.0.1",
     "node-modules": "^1.0.1",
     "react": "^16.13.1",
+    "react-anime": "^3.0.3",
     "react-dom": "^16.13.1",
+    "react-reveal": "^1.2.2",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-slideshow-image": "^3.0.2",
+    "react-spring": "^8.0.27"
   },
   "scripts": {
     "start": "react-scripts start",
