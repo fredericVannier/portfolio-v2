@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Fade from "react-reveal/Fade"
-import Slideshow from "./Slideshow";
+import Fade from "react-reveal/Fade";
+import SlideshowBis from "../components/SlideshowBis";
 
-export class Webdev extends Component {
+export class Graphist extends Component {
   render() {
     return (
       <div className="work-wrapper">
@@ -19,7 +19,7 @@ export class Webdev extends Component {
           </div>
           <div className="previews-container-2">
             <div className="previews-wrap-2">
-            <Slideshow />
+            <SlideshowBis />
             </div>
           </div>
         </div>
@@ -40,4 +40,4 @@ export class Webdev extends Component {
   }
 }
 
-export default Webdev;
+export default Graphist;

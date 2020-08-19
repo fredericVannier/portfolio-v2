@@ -29,8 +29,8 @@ export class Topit extends Component {
             <br />
             <p className="project-paragraph">
               Pour créer cette application, j'ai utilisé pour la partie
-              front-end le framework React JS et pour la partie back-end NodeJS
-              et Express.
+              front-end le framework <span>React JS</span> et pour la partie
+              back-end <span>NodeJS</span> et <span>Express</span>.
             </p>
             <br />
             <p className="project-paragraph">

@@ -8,6 +8,7 @@ import Contact from "./Pages/Contact";
 import Topit from "./Pages/Topit";
 import SpaceExplorer from "./Pages/SpaceExplorer";
 import Petsit from "./Pages/Petsit";
+import Cyberpunk from "./Pages/Cyberpunk";
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
           </Route>
           <Route exact path="/petsit">
             <Petsit />
+          </Route>
+          <Route exact path="/cyberpunk">
+            <Cyberpunk />
           </Route>
         </Switch>
       </div>

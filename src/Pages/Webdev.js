@@ -2,7 +2,7 @@ import React from "react";
 import { Spring } from "react-spring/renderprops";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
-import Slideshow from './Slideshow';
+import Slideshow from '../components/Slideshow';
 
 export default function Webdev() {
   return (
