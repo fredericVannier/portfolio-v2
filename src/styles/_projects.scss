@@ -1,24 +1,54 @@
 @import "./variables";
 
 .project-wrapper {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    .project-container-left {
-        width: 50vw;
-        height: 100vh;
+  .project-container-left {
+    width: 50vw;
+    height: 100vh;
 
-        .topit-title {
-            margin-top: 20vh;
-            margin-left: 10vw;
-            font-size: 3.5rem;
-        }
+    .title-wrap-2 {
+      width: fit-content;
+      height: auto;
+      margin-left: 17rem;
     }
 
-    .project-container-right {
-        width: 50vw;
-        height: 100vh;
-        background-image: url('../images/doom.jpg');
-        background-size: cover;
+    .big-title-2 {
+      font-weight: 800;
+      font-size: 6rem;
+      line-height: 0.7;
+      font-variant-caps: all-small-caps;
+      position: absolute;
+      z-index: 2;
+      margin-top: 9.7rem;
     }
+
+    .styled-forme-project {
+      height: 5rem;
+      width: 20rem;
+      background: $secondAccentColor;
+      position: relative;
+      top: 10rem;
+    }
+
+    .project-paragraph-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 250px;
+
+      .project-paragraph {
+        width: 30rem;
+        text-align: justify;
+      }
+    }
+  }
+
+  .project-container-right {
+    width: 50vw;
+    height: 100vh;
+    background-image: url("../images/doom.jpg");
+    background-size: cover;
+  }
 }

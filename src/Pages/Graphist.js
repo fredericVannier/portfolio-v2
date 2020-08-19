@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade"
+import Slideshow from "./Slideshow";
 
 export class Webdev extends Component {
   render() {
@@ -18,14 +19,7 @@ export class Webdev extends Component {
           </div>
           <div className="previews-container-2">
             <div className="previews-wrap-2">
-              <div className="preview-2">
-                <p>1</p>
-              </div>
-              <div className="preview-2"></div>
-              <div className="preview-2"></div>
-              <div className="preview-2">
-                <p>4</p>
-              </div>
+            <Slideshow />
             </div>
           </div>
         </div>

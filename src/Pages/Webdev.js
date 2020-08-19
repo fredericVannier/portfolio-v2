@@ -2,7 +2,7 @@ import React from "react";
 import { Spring } from "react-spring/renderprops";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
-import Webdev2 from './Slideshow';
+import Slideshow from './Slideshow';
 
 export default function Webdev() {
   return (
@@ -20,7 +20,7 @@ export default function Webdev() {
       </div>
       <div className="right-part">
         <div className="title-wrap">
-          <Spring from={{ opacity: 0 }} to={{ opacity: 1 }}>
+          <Spring from={{ opacity: 0, transitionDuration: 2000 }} to={{ opacity: 1 }}>
             {(props) => (
               <div style={props}>
                 <h1 className="big-title">
@@ -36,7 +36,7 @@ export default function Webdev() {
           </Spring>
         </div>
         <div className="previews-container">
-          <Webdev2 />
+          <Slideshow />
         </div>
       </div>
     </div>

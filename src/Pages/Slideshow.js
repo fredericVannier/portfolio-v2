@@ -9,7 +9,7 @@ const proprietes = {
   duration: 3000,
   transitionDuration: 500,
   infinite: true,
-  arrows: true,
+  arrows: false
 };
 
 const Slideshow = () => {

@@ -32,7 +32,7 @@ export default function Contact() {
             <p>
               N'hésitez pas à me contacter par e-mail
               <br />
-              pour une possible collaboration
+              pour une éventuelle collaboration
             </p>
           </section>
           <a href="mailto:frederic.vannier01@gmail.com?subject=Je viens de voir votre portfolio!">

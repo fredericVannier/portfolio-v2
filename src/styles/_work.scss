@@ -10,14 +10,14 @@
 }
 
 .title-wrap {
-    width: fit-content;
-    height: auto;
+  width: fit-content;
+  height: auto;
 }
 
 .title-wrap-2 {
-    width: fit-content;
-    height: auto;
-    margin-left: 23rem;
+  width: fit-content;
+  height: auto;
+  margin-left: 23rem;
 }
 
 .styled-forme {
@@ -72,18 +72,20 @@
 }
 
 .previews-container {
-    overflow-x: auto;
-    margin-top: 35vh;
-    margin-left: 5vw;
-    width: 30vw;
+  margin: 0 auto;
+  overflow-x: auto;
+  margin-top: 35vh;
+  margin-left: 5vw;
+  width: 100%;
 }
 
 .previews-container-2 {
-    overflow-x: auto;
-    margin-top: 35vh;
-    display: flex;
-    flex-direction: row-reverse;
-    margin-right: 5vw;
+  overflow-x: auto;
+  margin-top: 35vh;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 5vw;
+  width: 100%;
 }
 
 .previews-wrap {
@@ -120,16 +122,12 @@
 }
 
 .containerSlide {
-    width: 650px;
-    margin: auto;
-    padding-top: 200px;
-    display: flex;
-    object-fit: fill;
-  }
-  
-  .containerSlide img {
-    height: 450px;
-    width: inherit;
+  width: 650px;
+}
+
+.containerSlide img {
+  height: 450px;
+  width: inherit;
 }
 
 .react-slideshow-wrapper {
@@ -148,19 +146,19 @@
 }
 
 .slide-1 {
-  background-image: url('../images/doom.jpg');
+  background-image: url("../images/doom.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .slide-2 {
-  background-image: url('../images/chelou.webp');
+  background-image: url("../images/chelou.webp");
   background-size: cover;
   background-position: center;
 }
 
 .slide-3 {
-  background-image: url('../images/grumpy.jpg');
+  background-image: url("../images/grumpy.jpg");
   background-size: cover;
   background-position: center;
 }
