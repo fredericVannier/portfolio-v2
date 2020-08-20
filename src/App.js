@@ -10,6 +10,8 @@ import SpaceExplorer from "./Pages/SpaceExplorer";
 import Petsit from "./Pages/Petsit";
 import Cyberpunk from "./Pages/Cyberpunk";
 import Avatar from "./Pages/Avatar";
+import EsportLogo from "./Pages/EsportLogo";
+import Agora from "./Pages/Agora";
 
 function App() {
   return (
@@ -42,6 +44,12 @@ function App() {
           </Route>
           <Route exact path="/avatar">
             <Avatar />
+          </Route>
+          <Route exact path="/e-sport">
+            <EsportLogo />
+          </Route>
+          <Route exact path="/agora-coaching">
+            <Agora />
           </Route>
         </Switch>
       </div>

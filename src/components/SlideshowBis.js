@@ -19,8 +19,11 @@ const SlideshowBis = () => {
         <Link to="/avatar">
           <div className="slide-bis-2"></div>
         </Link>
-        <Link to="/petsit">
+        <Link to="/e-sport">
           <div className="slide-bis-3"></div>
+        </Link>
+        <Link to="/agora-coaching">
+          <div className="slide-bis-4"></div>
         </Link>
       </Slide>
     </div>

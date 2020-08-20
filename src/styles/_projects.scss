@@ -64,6 +64,16 @@
       margin-bottom: 5rem;
     }
 
+    .styled-forme-agora {
+      height: 5rem;
+      width: 25rem;
+      background: $secondAccentColor;
+      position: relative;
+      top: 14rem;
+      left: -20px;
+      margin-bottom: 5rem;
+    }
+
     .project-paragraph-container-space {
       display: flex;
       flex-direction: column;
@@ -105,6 +115,29 @@
     background-position: center;
   }
 
+  .project-container-right-esport {
+    width: 50vw;
+    height: 100vh;
+    background-image: url("../images/logo-esport-2020\ v2.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .floating-div-esport {
+    height: 250px;
+    width: 250px;
+    background-image: url("../images/logo-esport-2020\ v2.png");
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+    margin-top: 65vh;
+    left: 50rem;
+    position: absolute;
+    z-index: 33;
+  }
+
   .project-container-right-avatar {
     width: 50vw;
     height: 100vh;
@@ -112,22 +145,31 @@
     background-size: cover;
     background-position: center;
     z-index: 1;
-
   }
-      .floating-div {
-        height: 250px;
-        width: 250px;
-        background-image: url("../images/toph-instagram.png");
-        background-size: cover;
-        background-position: center;
-        -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-        -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-        box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-        margin-top: 65vh;
-        left: 37rem;
-        position: absolute;
-        z-index: 33;
-      }
+
+  .project-container-right-agora {
+    width: 50vw;
+    height: 100vh;
+    background-image: url("../images/AGORA_WALL.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+  }
+
+  .floating-div {
+    height: 250px;
+    width: 250px;
+    background-image: url("../images/toph-instagram.png");
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+    margin-top: 65vh;
+    left: 50rem;
+    position: absolute;
+    z-index: 33;
+  }
 
   .previews-container {
     margin: 0 auto;
