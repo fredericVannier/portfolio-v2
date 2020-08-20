@@ -71,9 +71,20 @@
   z-index: 2;
 }
 
+.big-title-bottom {
+  font-weight: 800;
+  font-size: 6rem;
+  line-height: 0.7;
+  font-variant-caps: all-small-caps;
+  position: absolute;
+  margin-top: 20vh;
+  margin-left: 5vw;
+  z-index: 2;
+}
+
 .previews-container {
   margin: 0 auto;
-  overflow-x: auto;
+  overflow-x: hidden;
   position: relative;
   top: 30vh;
   margin: 0 auto;
