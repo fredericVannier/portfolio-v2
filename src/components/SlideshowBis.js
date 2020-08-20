@@ -16,7 +16,7 @@ const SlideshowBis = () => {
         <Link to="/cyberpunk">
           <div className="slide-bis-1"></div>
         </Link>
-        <Link to="/space-explorer">
+        <Link to="/avatar">
           <div className="slide-bis-2"></div>
         </Link>
         <Link to="/petsit">

@@ -24,6 +24,17 @@
       margin-top: 11.7rem;
     }
 
+    .big-title-2-avatar {
+      font-weight: 800;
+      font-size: 5rem;
+      line-height: 0.7;
+      font-variant-caps: all-small-caps;
+      position: absolute;
+      z-index: 2;
+      margin-top: 12.5rem;
+      left: 150px;
+    }
+
     .styled-forme-project {
       height: 5rem;
       width: 15rem;
@@ -40,6 +51,16 @@
       position: relative;
       top: 14rem;
       left: -10px;
+      margin-bottom: 5rem;
+    }
+
+    .styled-forme-avatar {
+      height: 5rem;
+      width: 35rem;
+      background: $secondAccentColor;
+      position: relative;
+      top: 14rem;
+      left: -140px;
       margin-bottom: 5rem;
     }
 
@@ -75,13 +96,38 @@
     background-image: url("../images/doom.jpg");
     background-size: cover;
   }
+
   .project-container-right-cyberpunk {
     width: 50vw;
     height: 100vh;
     background-image: url("../images/cyberpunk-ui-concept.png");
-    background-size: contain;;
+    background-size: contain;
     background-position: center;
   }
+
+  .project-container-right-avatar {
+    width: 50vw;
+    height: 100vh;
+    background-image: url("../images/toph-instagram.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+
+  }
+      .floating-div {
+        height: 250px;
+        width: 250px;
+        background-image: url("../images/toph-instagram.png");
+        background-size: cover;
+        background-position: center;
+        -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+        -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+        box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+        margin-top: 65vh;
+        left: 37rem;
+        position: absolute;
+        z-index: 33;
+      }
 
   .previews-container {
     margin: 0 auto;

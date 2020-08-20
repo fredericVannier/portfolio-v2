@@ -1,88 +1,87 @@
 @import "styles/variables";
 
 .home-page {
-    height: 100vh;
-    width: 100vw;
+  height: 100vh;
+  width: 100vw;
 }
 
 .home-wrapper {
-    background: $mainColor;
-    color: $white;
-    height: 100vh;
-    width: 100vw;
+  background: $mainColor;
+  color: $white;
+  height: 100vh;
+  width: 100vw;
 }
 
 .home-title {
-    font-size: 4rem;
-    padding-top: 40vh;
-    padding-left: 5vw;
-    position: absolute;
-    z-index: 1;
+  font-size: 4rem;
+  padding-top: 40vh;
+  padding-left: 5vw;
+  position: absolute;
+  z-index: 1;
 }
 
 .first {
-    color: $accentColor;
+  color: $accentColor;
+  font-weight: bold;
 }
 
 .second {
-    color: $secondAccentColor;
+  color: $secondAccentColor;
+  font-weight: bold;
 }
 
 .divName {
-    padding-left: 5vw;
-    padding-top: 8vh;
-    position: fixed;
-    z-index: 2;
+  padding-left: 5vw;
+  padding-top: 8vh;
+  position: fixed;
+  z-index: 2;
 }
 
 .brandName {
-    font-size: 1.3rem;
-    font-variant-caps: all-small-caps;
-    letter-spacing: .7rem;
-    font-weight: 200;
-    color: $white;
-    
-    &:hover {
-        color: $accentColor;
-    }
+  font-size: 1.3rem;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.7rem;
+  font-weight: 200;
+  color: $white;
+
+  &:hover {
+    color: $accentColor;
+  }
 }
 
 .sideMenu-container {
-    position: fixed;
-    right: 0;
-    width: 200px;
-    z-index: 99;
-    
-    .sideMenu-wrapper {
-        display: flex;
-        justify-content: space-evenly;
-        justify-items: end;
+  position: fixed;
+  right: 0;
+  width: 200px;
+  z-index: 99;
+
+  .sideMenu-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: end;
+  }
+
+  .left-bar {
+    height: 100vh;
+    width: 1px;
+    background: rgba($color: #fff, $alpha: 0.1);
+  }
+
+  .side-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: $accentColor;
+    font-size: 1.1rem;
+    font-weight: 700;
+
+    .up {
+      margin-top: 8vh;
     }
 
-    .left-bar {
-        height: 100vh;
-        width: 1px;
-        background: rgba($color: #fff, $alpha: .1);
+    .down {
+      margin-bottom: 8vh;
     }
-
-    .side-menu {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-        color: $accentColor;
-        font-size: 1.1rem;
-        font-weight: 700;
-
-        .up {
-            margin-top: 8vh;
-        }
-
-        .down {
-            margin-bottom: 8vh;
-        }
-    }
-
-
+  }
 }
-
