@@ -24,17 +24,6 @@
       margin-top: 11.7rem;
     }
 
-    .big-title-2-avatar {
-      font-weight: 800;
-      font-size: 5rem;
-      line-height: 0.7;
-      font-variant-caps: all-small-caps;
-      position: absolute;
-      z-index: 2;
-      margin-top: 12.5rem;
-      left: 150px;
-    }
-
     .styled-forme-project {
       height: 5rem;
       width: 15rem;
@@ -44,16 +33,6 @@
       left: -10px;
     }
 
-    .styled-forme-space-explorer {
-      height: 5rem;
-      width: 25rem;
-      background: $secondAccentColor;
-      position: relative;
-      top: 14rem;
-      left: -10px;
-      margin-bottom: 5rem;
-    }
-
     .styled-forme-avatar {
       height: 5rem;
       width: 35rem;
@@ -61,16 +40,6 @@
       position: relative;
       top: 14rem;
       left: -140px;
-      margin-bottom: 5rem;
-    }
-
-    .styled-forme-agora {
-      height: 5rem;
-      width: 25rem;
-      background: $secondAccentColor;
-      position: relative;
-      top: 14rem;
-      left: -20px;
       margin-bottom: 5rem;
     }
 
@@ -100,13 +69,85 @@
     }
   }
 
-  .project-container-right {
+  .nextNav {
+    height: 100px;
+    width: 100px;
+    background-color: $white;
+    margin-left: 92vw;
+    margin-top: 45vh;
+    opacity: 0.5;
+    z-index: 150;
+    position: absolute;
+    border-radius: 10rem;
+  }
+
+  .previousNav {
+    height: 100px;
+    width: 100px;
+    background-color: $white;
+    margin-left: 2.8vw;
+    margin-top: 45vh;
+    z-index: 150;
+    position: absolute;
+    border-radius: 10rem;
+  }
+
+  //TOPIT
+  .project-container-right-topit {
     width: 50vw;
     height: 100vh;
     background-image: url("../images/doom.jpg");
     background-size: cover;
   }
 
+  //SPACE EXPLORER
+  .styled-forme-space-explorer {
+    height: 5rem;
+    width: 25rem;
+    background: $secondAccentColor;
+    position: relative;
+    top: 13rem;
+    left: -10px;
+    margin-bottom: 5rem;
+  }
+
+  .project-container-right-space-explorer {
+    width: 50vw;
+    height: 100vh;
+    background-image: url("../images/chelou.webp");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .spaceLinks {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 600;
+
+    .play:hover {
+      color: $accentColor;
+    }
+  }
+
+  //PETSIT
+  .project-container-right-petsit {
+    width: 50vw;
+    height: 100vh;
+    background-image: url("../images/grumpy.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .styled-forme-project-petsit {
+    height: 5rem;
+    width: 17rem;
+    background: $secondAccentColor;
+    position: relative;
+    top: 12rem;
+    left: -10px;
+  }
+
+  //CYBERPUNK
   .project-container-right-cyberpunk {
     width: 50vw;
     height: 100vh;
@@ -115,12 +156,33 @@
     background-position: center;
   }
 
+  .styled-forme-cyberpunk {
+    height: 5rem;
+    width: 23rem;
+    background: $secondAccentColor;
+    position: relative;
+    top: 13rem;
+    left: -10px;
+    margin-bottom: 5rem;
+  }
+
+  //LOGO E-SPORT
   .project-container-right-esport {
     width: 50vw;
     height: 100vh;
     background-image: url("../images/logo-esport-2020\ v2.png");
     background-size: cover;
     background-position: center;
+  }
+
+  .styled-forme-esport {
+    height: 5rem;
+    width: 23rem;
+    background: $secondAccentColor;
+    position: relative;
+    top: 13rem;
+    left: -10px;
+    margin-bottom: 5rem;
   }
 
   .floating-div-esport {
@@ -138,19 +200,11 @@
     z-index: 33;
   }
 
+  //AVATAR
   .project-container-right-avatar {
     width: 50vw;
     height: 100vh;
     background-image: url("../images/toph-instagram.png");
-    background-size: cover;
-    background-position: center;
-    z-index: 1;
-  }
-
-  .project-container-right-agora {
-    width: 50vw;
-    height: 100vh;
-    background-image: url("../images/AGORA_WALL.jpg");
     background-size: cover;
     background-position: center;
     z-index: 1;

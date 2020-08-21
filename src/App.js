@@ -12,6 +12,7 @@ import Cyberpunk from "./Pages/Cyberpunk";
 import Avatar from "./Pages/Avatar";
 import EsportLogo from "./Pages/EsportLogo";
 import Agora from "./Pages/Agora";
+import PersonalLogo from "./Pages/PersonalLogo";
 
 function App() {
   return (
@@ -50,6 +51,9 @@ function App() {
           </Route>
           <Route exact path="/agora-coaching">
             <Agora />
+          </Route>
+          <Route exact path="/personal-logo">
+            <PersonalLogo />
           </Route>
         </Switch>
       </div>

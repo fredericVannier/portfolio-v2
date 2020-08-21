@@ -83,18 +83,16 @@
 }
 
 .previews-container {
-  margin: 0 auto;
   overflow-x: hidden;
   position: relative;
-  top: 30vh;
+  top: 26vh;
   margin: 0 auto;
 }
 
 .previews-container-2 {
-  margin: 0 auto;
   overflow-x: auto;
   position: relative;
-  top: 30vh;
+  top: 26vh;
   margin: 0 auto;
 }
 
@@ -137,6 +135,9 @@
   display: flex;
   width: 650px;
   overflow: hidden;
+  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
 }
 
 .images-wrap {

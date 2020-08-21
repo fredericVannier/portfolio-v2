@@ -1,0 +1,63 @@
+@import "./variables";
+
+.project-wrapper {
+  display: flex;
+  flex-direction: row;
+
+  .styled-forme-agora {
+    height: 5rem;
+    width: 25rem;
+    background: $secondAccentColor;
+    position: relative;
+    top: 13rem;
+    left: -20px;
+    margin-bottom: 5rem;
+  }
+
+  .big-title-3 {
+    font-weight: 800;
+    font-size: 6rem;
+    line-height: 1.4;
+    font-variant-caps: all-small-caps;
+    position: absolute;
+    z-index: 2;
+    margin-top: 12.5rem;
+  }
+}
+
+.project-container-right-agora {
+  width: 50vw;
+  height: 100vh;
+  background-image: url("../images/AGORA_WALL.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.project-container-right-personal-logo {
+  width: 50vw;
+  height: 100vh;
+  background-image: url("../images/LOGO_2019.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.floating-div-agora {
+  height: 250px;
+  width: 250px;
+  background-image: url("../images/LOGO_2019.png");
+  background-size: cover;
+  background-position: center;
+  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+  margin-top: 65vh;
+  left: 50rem;
+  position: absolute;
+  z-index: 33;
+}
+
+.special {
+  color: #EA4C89;
+}
