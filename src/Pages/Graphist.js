@@ -22,7 +22,7 @@ export class Graphist extends Component {
             </Fade>
           </div>
           <div className="previews-container-2">
-            <Fade left delay={600}>
+            <Fade left delay={500}>
               <div className="previews-wrap-2">
                 <SlideshowBis />
               </div>

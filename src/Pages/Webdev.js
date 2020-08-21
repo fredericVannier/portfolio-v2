@@ -34,7 +34,7 @@ export default function Webdev() {
           </Fade>
         </div>
         <div className="previews-container">
-          <Fade right delay={600}>
+          <Fade right delay={500}>
             <Slideshow />
           </Fade>
         </div>

@@ -3,7 +3,7 @@ import { Slide } from "react-slideshow-image";
 import { Link } from "react-router-dom";
 
 const proprietes = {
-  duration: 2000,
+  duration: 3000,
   transitionDuration: 500,
   infinite: true,
   arrows: false,
