@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export class Button extends Component {
   constructor(props) {
@@ -28,33 +29,45 @@ export class Button extends Component {
         </button>
         <button
           onClick={this.handleClick}
-          className={
-            this.state.isToggleOn ? "btn-hidden" : "btn-showed-gmail"
-          }
+          className={this.state.isToggleOn ? "btn-hidden-gmail" : "btn-showed-gmail"}
         >
-          <div className="logo-gmail">
-            <img src="./plus.svg" alt="Gmail" />
-          </div>
+          <a href="mailto:frederic.vannier01@gmail.com?subject=Je viens de voir votre portfolio!">
+            <div className="logo-gmail">
+              <img src="./plus.svg" alt="Gmail" />
+            </div>
+          </a>
+        </button>
+        <button
+          onClick={this.handleClick}
+          className={this.state.isToggleOn ? "btn-hidden-github" : "btn-showed-github"}
+        >
+          <Link
+            to={{
+              pathname: "https://github.com/Fred011",
+            }}
+            target="_blank"
+          >
+            <div className="logo-nav">
+              <img src="./plus.svg" alt="Github" />
+            </div>
+          </Link>
         </button>
         <button
           onClick={this.handleClick}
           className={
-            this.state.isToggleOn ? "btn-hidden" : "btn-showed-github"
+            this.state.isToggleOn ? "btn-hidden-dribbble" : "btn-showed-dribbble"
           }
         >
-          <div className="logo-nav">
-            <img src="./plus.svg" alt="Github" />
-          </div>
-        </button>
-        <button
-          onClick={this.handleClick}
-          className={
-            this.state.isToggleOn ? "btn-hidden" : "btn-showed-dribbble"
-          }
-        >
-          <div className="logo-nav">
-            <img src="./plus.svg" alt="Dribbble" />
-          </div>
+          <Link
+            to={{
+              pathname: "https://dribbble.com/FVDesign",
+            }}
+            target="_blank"
+          >
+            <div className="logo-nav">
+              <img src="./plus.svg" alt="Dribbble" />
+            </div>
+          </Link>
         </button>
       </div>
     );
