@@ -23,7 +23,7 @@ export class Button extends Component {
             this.state.isToggleOn ? "deactivated-button" : "activated-button"
           }
         >
-          <div className="logo-nav test">
+          <div className="logo-nav">
             <img src="./plus.svg" alt="social media button" />
           </div>
         </button>
