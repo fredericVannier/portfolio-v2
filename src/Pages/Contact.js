@@ -1,15 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import SideMenu from "../components/SideMenu";
-import Button from "../components/Button";
-import Name from "../components/Name";
 
 export default function Contact() {
   return (
     <div className="contact-wrapper">
-      <SideMenu />
-      <Button />
-      <Name />
       <div className="contact-container">
         <div classname="contact-header">
           <h2>

@@ -1,0 +1,49 @@
+@import "./variables";
+
+
+.realisation-container {
+    width: 1200px;
+    margin:10em auto;
+    columns: 4;
+    column-gap: 40px;
+
+    .box {
+        width: 100%;
+        margin: 0 0 20px;
+        padding: 10px;
+        background: #fff;
+        overflow: hidden;
+        break-inside: avoid;
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+.realisation-container .box h2 {
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+    .realisation-container {
+        columns: 3;
+        width: calc(100% - 40px);
+        box-sizing: border-box;
+        padding: 20px 20px 20px 0;
+    }
+}
+
+@media (max-width: 768PX) {
+    .realisation-container {
+        columns: 2;
+    }
+}
+
+@media (max-width: 480PX) {
+    .realisation-container {
+        columns: 1;
+    }
+}

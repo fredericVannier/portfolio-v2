@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import SideMenu from "../components/SideMenu";
-import Button from "../components/Button";
-import Name from "../components/Name";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
 
@@ -9,9 +6,6 @@ export class Cyberpunk extends Component {
   render() {
     return (
       <div className="project-wrapper">
-        <SideMenu />
-        <Button />
-        <Name />
         <div className="project-container-left">
           <div className="title-wrap-2">
             <Fade up delay="400">

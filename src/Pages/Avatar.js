@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import SideMenu from "../components/SideMenu";
-import Button from "../components/Button";
-import Name from "../components/Name";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 
@@ -9,9 +6,6 @@ export class Avatar extends Component {
   render() {
     return (
       <div className="project-wrapper">
-        <SideMenu />
-        <Button />
-        <Name />
         <div className="project-container-left">
           <div className="title-wrap-2">
             <Fade up delay={400}>
@@ -57,15 +51,6 @@ export class Avatar extends Component {
             </div>
           </Fade>
         </div>
-        <Link
-          to={{
-            pathname:
-              "https://dribbble.com/shots/11401706-Toph-the-best-earthbender",
-          }}
-          target="_blank"
-        >
-          <div className="floating-div"></div>
-        </Link>
         <Fade down delay={400}>
           <div className="project-container-right-avatar"></div>
         </Fade>

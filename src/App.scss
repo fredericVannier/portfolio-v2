@@ -6,12 +6,13 @@
 @import "styles/projects";
 @import "styles/agora";
 @import "styles/avatar";
+@import "styles/masonry";
 
 body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
-  overflow-x: hidden;
+  //overflow-x: hidden;
 }
 
 a {

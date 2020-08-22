@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import SideMenu from "../components/SideMenu";
-import Button from "../components/Button";
-import Name from "../components/Name";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 
@@ -9,9 +6,6 @@ export class Agora extends Component {
   render() {
     return (
       <div className="project-wrapper">
-        <SideMenu />
-        <Button />
-        <Name />
         <div className="project-container-left">
           <div className="title-wrap-2">
             <Fade up delay={400}>
@@ -61,9 +55,6 @@ export class Agora extends Component {
             </div>
           </Fade>
         </div>
-        <Link to="/personal-logo">
-          <div className="floating-div-agora"></div>
-        </Link>
         <Fade down delay={400}>
           <div className="project-container-right-agora"></div>
         </Fade>

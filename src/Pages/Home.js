@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import SideMenu from "../components/SideMenu";
-import Button from "../components/Button";
-import Name from "../components/Name";
 import Webdev from "./Webdev";
 import Graphist from "./Graphist";
 
@@ -10,9 +7,6 @@ export class Home extends Component {
     return (
       <div className="home-wrapper">
         <div className="home-container">
-          <SideMenu />
-          <Button />
-          <Name />
           <div className="home-page">
             <h1 className="home-title">
               Développeur <br />
