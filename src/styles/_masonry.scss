@@ -1,48 +1,67 @@
 @import "./variables";
 
 .realisation-container {
-    width: 1200px;
-    padding-top: 15em;
-    margin: 0 auto;
-    columns: 4;
-    column-gap: 40px;
+  width: 1200px;
+  padding-top: 15em;
+  margin: 0 auto;
+  columns: 3;
+  column-gap: 40px;
 
-    .box {
-        width: 100%;
-        margin: 0 0 20px;
-        padding: 10px;
-        overflow: hidden;
-        break-inside: avoid;
+  .box {
+    width: 100%;
+    margin: 0 0 40px;
+    overflow: hidden;
+    break-inside: avoid;
 
-        img {
-            max-width: 100%;
-        }
+    img {
+      max-width: 100%;
     }
+  }
+}
+.content {
+  position: absolute;
+  margin-top: 20px;
+  opacity: 0;
+  transform: translateX(-0.5em);
+  transition: all 1s;
+  will-change: opacity, transform;
 }
 
 .realisation-container .box h2 {
-    margin: 10px 0 0;
-    padding: 0;
-    font-size: 20px;
+  margin: 0px 0 0;
+  font-size: 1.1em;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
 }
 
-@media (max-width: 1200px) {
-    .realisation-container {
-        columns: 3;
-        width: calc(100% - 40px);
-        box-sizing: border-box;
+@media (min-width: 1200px) {
+  .realisation-container {
+    columns: 3;
+    
+    box-sizing: border-box;
+
+    .box:hover {
+      cursor: pointer;
+
+      .content {
+        opacity: 1;
+        transform: translateX(0);
+      }
     }
+  }
 }
 
-@media (max-width: 768PX) {
-    .realisation-container {
-        columns: 2;
-        margin: 0 auto;
-    }
+@media (max-width: 768px) {
+  .realisation-container {
+    columns: 2;
+    margin: 0 auto;
+    width: calc(100% - 40px);
+  }
 }
 
-@media (max-width: 480PX) {
-    .realisation-container {
-        columns: 1;
-    }
+@media (max-width: 480px) {
+  .realisation-container {
+    columns: 1;
+  }
 }

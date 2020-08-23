@@ -138,6 +138,7 @@
   -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
   -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
   box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+  border: 7px solid $boxColor;
 }
 
 .images-wrap {
@@ -153,40 +154,197 @@
   background-image: url("../images/desktop-topit.jpg");
   background-size: cover;
   background-position: center;
+
+  .titleSlide {
+    margin: 10px 0 0;
+    font-size: 1.5em;
+    font-variant-caps: all-small-caps;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 50px;
+    opacity: 0;
+    transform: translateX(-0.5em);
+    transition: all 0.5s;
+    will-change: opacity, transform;
+  }
 }
 
 .slide-2 {
   background-image: url("../images/chelou.webp");
   background-size: cover;
   background-position: center;
+
+  .titleSlide {
+    margin: 10px 0 0;
+    font-size: 1.5em;
+    font-variant-caps: all-small-caps;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 50px;
+    opacity: 0;
+    transform: translateX(-0.5em);
+    transition: all 0.5s;
+    will-change: opacity, transform;
+  }
 }
 
 .slide-3 {
   background-image: url("../images/petsit-2.jpeg");
   background-size: cover;
   background-position: center;
+
+  .titleSlide {
+    margin: 10px 0 0;
+    font-size: 1.5em;
+    font-variant-caps: all-small-caps;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 50px;
+    opacity: 0;
+    transform: translateX(-0.5em);
+    transition: all 0.5s;
+    will-change: opacity, transform;
+  }
 }
 
 .slide-bis-1 {
   background-image: url("../images/cyberpunk-ui.jpeg");
   background-size: cover;
   background-position: center;
+  
+  .titleSlide {
+    margin: 10px 0 0;
+    font-size: 1.5em;
+    font-variant-caps: all-small-caps;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 50px;
+    opacity: 0;
+    transform: translateX(-0.5em);
+    transition: all 0.5s;
+    will-change: opacity, transform;
+  }
 }
 
 .slide-bis-2 {
   background-image: url("../images/double-poster-avatar.jpg");
   background-size: cover;
   background-position: center;
+  
+  .titleSlide {
+    margin: 10px 0 0;
+    font-size: 1.5em;
+    font-variant-caps: all-small-caps;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 50px;
+    opacity: 0;
+    transform: translateX(-0.5em);
+    transition: all 0.5s;
+    will-change: opacity, transform;
+  }
 }
 
 .slide-bis-3 {
-  background-image: url("../images/logo-esport-2020\ v2.png");
+  background-image: url("../images/logo-esport-2020.png");
   background-size: cover;
   background-position: center;
+  
+  .titleSlide {
+    margin: 10px 0 0;
+    font-size: 1.5em;
+    font-variant-caps: all-small-caps;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 50px;
+    opacity: 0;
+    transform: translateX(-0.5em);
+    transition: all 0.5s;
+    will-change: opacity, transform;
+  }
 }
 
 .slide-bis-4 {
   background-image: url("../images/agora-2.jpeg");
   background-size: cover;
   background-position: center;
+  
+  .titleSlide {
+    margin: 10px 0 0;
+    font-size: 1.5em;
+    font-variant-caps: all-small-caps;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 50px;
+    opacity: 0;
+    transform: translateX(-0.5em);
+    transition: all 0.5s;
+    will-change: opacity, transform;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .slide-1 {
+    &:hover {
+      .titleSlide {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  }
+
+  .slide-2 {
+    &:hover {
+      .titleSlide {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  }
+
+  .slide-3 {
+    &:hover {
+      .titleSlide {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  }
+
+  .slide-bis-1 {
+    &:hover {
+      .titleSlide {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  }
+
+  .slide-bis-2 {
+    &:hover {
+      .titleSlide {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  }
+
+  .slide-bis-3 {
+    &:hover {
+      .titleSlide {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  }
+
+  .slide-bis-4 {
+    &:hover {
+      .titleSlide {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  }
 }

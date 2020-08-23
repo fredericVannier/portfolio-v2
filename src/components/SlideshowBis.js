@@ -14,16 +14,22 @@ const SlideshowBis = () => {
     <div className="containerSlide">
       <Slide {...proprietes}>
         <Link to="/cyberpunk">
-          <div className="slide-bis-1"></div>
+          <div className="slide-bis-1">
+          <h2 className="titleSlide">Cyberpunk UI concept</h2>
+          </div>
         </Link>
         <Link to="/avatar">
-          <div className="slide-bis-2"></div>
+          <div className="slide-bis-2">
+          <h2 className="titleSlide">Avatar illustrations</h2>
+          </div>
         </Link>
         <Link to="/e-sport">
-          <div className="slide-bis-3"></div>
+          <div className="slide-bis-3">
+          <h2 className="titleSlide">esport lopo</h2>
+          </div>
         </Link>
         <Link to="/agora-coaching">
-          <div className="slide-bis-4"></div>
+          <div className="slide-bis-4">Agora logo</div>
         </Link>
       </Slide>
     </div>
