@@ -86,19 +86,20 @@
   }
 }
 
-.nav-wrapper {
+.nav-visible {
   visibility: hidden;
+  height: 0;
+  width: 0;
 }
 
 
 @media (max-width: 480px) {
 
   .home-title {
-    font-size: 3.5em;
+    font-size: 2em;
     padding-top: 40vh;
     padding-left: 5vw;
     position: absolute;
-    z-index: 1;
   }
 
   .mobile-hidden {
@@ -107,7 +108,7 @@
     width: 0;
   }
 
-  .nav-wrapper {
+  .nav-visible {
     visibility: visible;
 
     .menu-container-activated {
@@ -116,7 +117,6 @@
       height: 100vh;
       display: flex;
       flex-direction: column;
-      height: 100vh;
       justify-content: center;
       opacity: 1;
       transform: translateX(0);

@@ -19,7 +19,7 @@ export class MobileNav extends Component {
 
   render() {
     return (
-      <div className="nav-wrapper mobile-visible">
+      <div className="nav-wrapper nav-visible">
         <button
           onClick={this.handleClickMenu}
           className={
