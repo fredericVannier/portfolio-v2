@@ -8,6 +8,9 @@ export class SideMenu extends Component {
         <div className="sideMenu-wrapper">
           <div className="left-bar"></div>
           <div className="side-menu">
+            <Link to="projets">
+              <p className="up">Projets</p>
+            </Link>
             <Link to="/contact">
               <p className="down">Contact</p>
             </Link>

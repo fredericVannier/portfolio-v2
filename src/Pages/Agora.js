@@ -34,7 +34,7 @@ export class Agora extends Component {
                 <br />
               </p>
               <br />
-              <p className="project-paragraph">
+              <p className="project-paragraph last-p">
                 Projet réalisé avec <span>Photoshop</span> et{" "}
                 <span>Illustrator</span>.
                 <br />

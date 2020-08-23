@@ -50,7 +50,7 @@ export class SpaceExplorer extends Component {
                     }}
                     target="_blank"
                   >
-                    <p>Voir le code</p>
+                    <p className="last-p">Voir le code</p>
                   </Link>
                 </div>
               </p>

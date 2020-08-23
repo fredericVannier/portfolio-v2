@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Masonry from "../components/Masonry";
 
-export class Home extends Component {
+export class Projets extends Component {
   render() {
     return (
       <div className="realisations-wrapper">
@@ -11,4 +11,4 @@ export class Home extends Component {
   }
 }
 
-export default Home;
+export default Projets;

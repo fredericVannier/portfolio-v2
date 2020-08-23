@@ -42,7 +42,7 @@ export class Petsit extends Component {
                     }}
                     target="_blank"
                   >
-                    <p>Voir le code</p>
+                    <p className="last-p">Voir le code</p>
                   </Link>
                 </div>
             </p>

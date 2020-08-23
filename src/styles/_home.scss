@@ -70,7 +70,7 @@
   .side-menu {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     color: $accentColor;
     font-size: 1.1rem;
@@ -90,17 +90,11 @@
   visibility: hidden;
 }
 
-.testK {
-  visibility: hidden;
-  height: 100vh;
-  width: 100vw;
-}
-
 
 @media (max-width: 480px) {
 
   .home-title {
-    font-size: 1.9em;
+    font-size: 3.5em;
     padding-top: 40vh;
     padding-left: 5vw;
     position: absolute;

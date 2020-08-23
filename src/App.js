@@ -12,7 +12,7 @@ import Cyberpunk from "./Pages/Cyberpunk";
 import Avatar from "./Pages/Avatar";
 import EsportLogo from "./Pages/EsportLogo";
 import Agora from "./Pages/Agora";
-import Realisations from "./Pages/Realisations";
+import Projets from "./Pages/Projets";
 import SideMenu from "./components/SideMenu";
 import Button from "./components/Button";
 import Name from "./components/Name";
@@ -60,8 +60,8 @@ function App() {
           <Route exact path="/agora-coaching">
             <Agora />
           </Route>
-          <Route exact path="/realisations">
-            <Realisations />
+          <Route exact path="/projets">
+            <Projets />
           </Route>
         </Switch>
       </div>

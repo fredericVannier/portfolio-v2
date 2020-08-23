@@ -6,7 +6,7 @@ const proprietes = {
   duration: 4000,
   transitionDuration: 500,
   infinite: true,
-  arrows: false
+  arrows: false,
 };
 
 const SlideshowBis = () => {

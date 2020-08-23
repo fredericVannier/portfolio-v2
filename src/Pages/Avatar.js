@@ -9,7 +9,8 @@ export class Avatar extends Component {
         <div className="project-container-left">
           <div className="title-wrap-2">
             <Fade up delay={400}>
-              <h1 className="big-title-2-avatar">Avatar, le dernier</h1>
+              <h1 className="big-title-2-avatar">Avatar, </h1>
+              <h1 className="big-title-2-avatar-bis"> le dernier</h1>
             </Fade>
             <br />
             <Fade up delay={500}>
@@ -30,7 +31,7 @@ export class Avatar extends Component {
                 retrouvant les détails marquants qui les caractérisent.
               </p>
               <br />
-              <p className="project-paragraph">
+              <p className="project-paragraph last-p">
                 Projet réalisé avec <span>Photoshop</span> et{" "}
                 <span>Illustrator</span>.
                 <br />

@@ -28,7 +28,7 @@ export class EsportLogo extends Component {
                 <br />
               </p>
               <br />
-              <p className="project-paragraph">
+              <p className="project-paragraph last-p">
                 Projets réalisés avec <span>Photoshop</span> et{" "}
                 <span>Illustrator</span>.
                 <br />

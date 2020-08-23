@@ -12,7 +12,7 @@ export class Topit extends Component {
               <h1 className="big-title-2">Topit</h1>
             </Fade>
             <Fade left delay={200}>
-              <div className="styled-forme-project"></div>
+              <div className="styled-forme-project-topit"></div>
             </Fade>
           </div>
           <Fade up delay={400}>
@@ -31,7 +31,8 @@ export class Topit extends Component {
               <p className="project-paragraph">
                 Pour créer cette application, j'ai utilisé pour la partie
                 front-end le framework <span>React JS</span> et pour la partie
-                back-end <span>NodeJS</span> et <span>Express</span>. Le déploiement est effectué avec Heroku.
+                back-end <span>NodeJS</span> et <span>Express</span>. Le
+                déploiement est effectué avec Heroku.
               </p>
               <br />
               <p className="project-paragraph">
@@ -54,7 +55,7 @@ export class Topit extends Component {
                     }}
                     target="_blank"
                   >
-                    <p>Voir le code</p>
+                    <p className="last-p">Voir le code</p>
                   </Link>
                 </div>
               </p>

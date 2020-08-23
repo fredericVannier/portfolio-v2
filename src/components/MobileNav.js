@@ -17,12 +17,16 @@ export class MobileNav extends Component {
   render() {
     return (
       <div className="nav-wrapper mobile-visible">
-        <button
+<button
           onClick={this.handleClick}
           className={
-            this.state.isToggleOn ? "nav-on overlap" : "nav-off"
+            this.state.isToggleOn ? "deactivated-button" : "activated-button"
           }
-        ></button>
+        >
+          <div className="logo-nav">
+            <img src="./plus.svg" alt="social media button" />
+          </div>
+        </button>
 
         <div className="menu-container">
             <div className="nav-content">

@@ -28,18 +28,18 @@ export class Graphist extends Component {
               </div>
             </Fade>
             <Fade up delay={700}>
-            <p className="job-description-mobile-bis">
-              De formation bac +2 en Communication et Marketing et animé par la
-              passion du design, je me suis très vite spécialisé dans le
-              graphisme.
-              <br />
-              <br />
-              Fort de 7 ans d'expérience, je souhaite toujours m'améliorer et
-              apprendre de nouvelles tendances. Au cours de ces années, j'ai pu
-              réaliser des projets divers et variés que vous pouvez consulter
-              ici.
-            </p>
-          </Fade>
+              <p className="job-description-mobile-bis">
+                De formation bac +2 en Communication et Marketing et animé par
+                la passion du design, je me suis très vite spécialisé dans le
+                graphisme.
+                <br />
+                <br />
+                Fort de 7 ans d'expérience, je souhaite toujours m'améliorer et
+                apprendre de nouvelles tendances. Au cours de ces années, j'ai
+                pu réaliser des projets divers et variés que vous pouvez
+                consulter ici.
+              </p>
+            </Fade>
           </div>
         </div>
         <div className="left-part">

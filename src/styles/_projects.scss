@@ -43,16 +43,6 @@
       left: -10px;
     }
 
-    .styled-forme-avatar {
-      height: 5rem;
-      width: 35rem;
-      background: $secondAccentColor;
-      position: relative;
-      top: 14rem;
-      left: -140px;
-      margin-bottom: 5rem;
-    }
-
     .project-paragraph-container-space {
       display: flex;
       flex-direction: column;
@@ -149,6 +139,15 @@
     background-position: center;
   }
 
+  .styled-forme-project-topit {
+    height: 5rem;
+    width: 17rem;
+    background: $secondAccentColor;
+    position: relative;
+    top: 12rem;
+    left: -10px;
+  }
+
   .styled-forme-project-petsit {
     height: 5rem;
     width: 17rem;
@@ -196,47 +195,28 @@
     margin-bottom: 5rem;
   }
 
-  .floating-div-esport {
-    height: 250px;
-    width: 250px;
-    background-image: url("../images/logo-esport-2020.png");
-    background-size: cover;
-    background-position: center;
-    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-    margin-top: 65vh;
-    left: 50rem;
-    position: absolute;
-    z-index: 33;
-  }
-
-
-
-  .floating-div {
-    height: 250px;
-    width: 250px;
-    background-image: url("../images/toph-instagram.png");
-    background-size: cover;
-    background-position: center;
-    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-    margin-top: 65vh;
-    left: 50rem;
-    position: absolute;
-    z-index: 33;
-  }
-
   .previews-container {
     margin: 0 auto;
   }
 }
 
 @media (max-width: 480px) {
-
   .project-wrapper {
     flex-direction: column-reverse;
+    width: 100vw;
+
+    .project-container-right-space-explorer {
+      width: 100vw;
+      height: 450px;
+      background-image: url("../images/chelou.webp");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .project-container-right-topit {
+      width: 100vw;
+      height: 450px;
+    }
 
     .project-container-right-petsit {
       width: 100vw;
@@ -256,7 +236,7 @@
     }
 
     .styled-forme-project-petsit {
-      top: 5em;
+      top: 4.5em;
       left: 2em;
     }
 
@@ -269,7 +249,17 @@
       top: 5em;
       left: 2em;
     }
-    
+
+    .styled-forme-space-explorer {
+      top: 5em;
+      left: 1.8em;
+    }
+
+    .styled-forme-project-topit {
+      top: 4.5em;
+      left: 1.8em;
+      width: 15.3em;
+    }
 
     .project-container-left {
       width: 0;
@@ -279,13 +269,13 @@
         margin-left: 0;
 
         .big-title-2 {
-          left: .47em;
-          margin-top: .70em;
+          left: 0.47em;
+          margin-top: 0.7em;
         }
 
         .big-title-3 {
-          margin-top: .8em;
-          left: .47em;
+          margin-top: 0.8em;
+          left: 0.47em;
         }
       }
 
@@ -293,7 +283,7 @@
         align-items: center;
         margin-top: 9em;
         width: 100vw;
-  
+
         .project-paragraph {
           width: calc(100% - 100px);
           text-align: justify;
@@ -304,7 +294,7 @@
         align-items: center;
         margin-top: 9em;
         width: 100vw;
-  
+
         .project-paragraph {
           width: calc(100% - 100px);
           text-align: justify;
