@@ -9,7 +9,7 @@
     height: 100vh;
 
     .title-wrap-2 {
-      width: fit-content;
+      width: 100vw;
       height: auto;
       margin-left: 17rem;
     }
@@ -22,6 +22,16 @@
       position: absolute;
       z-index: 2;
       margin-top: 11.7rem;
+    }
+
+    .big-title-3 {
+      font-weight: 800;
+      font-size: 6rem;
+      line-height: 1.4;
+      font-variant-caps: all-small-caps;
+      position: absolute;
+      z-index: 2;
+      margin-top: 12.5rem;
     }
 
     .styled-forme-project {
@@ -201,15 +211,7 @@
     z-index: 33;
   }
 
-  //AVATAR
-  .project-container-right-avatar {
-    width: 50vw;
-    height: 100vh;
-    background-image: url("../images/avatar-portrait.jpg");
-    background-size: cover;
-    background-position: center;
-    z-index: 1;
-  }
+
 
   .floating-div {
     height: 250px;
@@ -234,6 +236,80 @@
 @media (max-width: 480px) {
 
   .project-wrapper {
-    flex-direction: column;
+    flex-direction: column-reverse;
+
+    .project-container-right-petsit {
+      width: 100vw;
+      height: 450px;
+    }
+
+    .project-container-right-esport {
+      width: 100vw;
+      height: 450px;
+    }
+
+    .project-container-right-cyberpunk {
+      width: 100vw;
+      height: 450px;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .styled-forme-project-petsit {
+      top: 5em;
+      left: 2em;
+    }
+
+    .styled-forme-esport {
+      top: 5em;
+      left: 2em;
+    }
+
+    .styled-forme-cyberpunk {
+      top: 5em;
+      left: 2em;
+    }
+    
+
+    .project-container-left {
+      width: 0;
+      height: 0;
+
+      .title-wrap-2 {
+        margin-left: 0;
+
+        .big-title-2 {
+          left: .47em;
+          margin-top: .70em;
+        }
+
+        .big-title-3 {
+          margin-top: .8em;
+          left: .47em;
+        }
+      }
+
+      .project-paragraph-container {
+        align-items: center;
+        margin-top: 9em;
+        width: 100vw;
+  
+        .project-paragraph {
+          width: calc(100% - 100px);
+          text-align: justify;
+        }
+      }
+
+      .project-paragraph-container-space {
+        align-items: center;
+        margin-top: 9em;
+        width: 100vw;
+  
+        .project-paragraph {
+          width: calc(100% - 100px);
+          text-align: justify;
+        }
+      }
+    }
   }
 }
