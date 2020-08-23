@@ -4,13 +4,23 @@ import { Link } from "react-router-dom";
 export class Button extends Component {
   constructor(props) {
     super(props);
-    this.state = { isToggleOn: true };
+    this.state = {
+      isToggleOn: true,
+      isMenuToggleOn: true,
+    };
     this.handleClick = this.handleClick.bind(this);
+    this.handleClickMenu = this.handleClickMenu.bind(this);
   }
 
   handleClick() {
     this.setState((state) => ({
       isToggleOn: !state.isToggleOn,
+    }));
+  }
+  
+  handleClickMenu() {
+    this.setState((state) => ({
+      isMenuToggleOn: !state.isMenuToggleOn,
     }));
   }
 
@@ -29,7 +39,9 @@ export class Button extends Component {
         </button>
         <button
           onClick={this.handleClick}
-          className={this.state.isToggleOn ? "btn-hidden-gmail" : "btn-showed-gmail"}
+          className={
+            this.state.isToggleOn ? "btn-hidden-gmail" : "btn-showed-gmail"
+          }
         >
           <a href="mailto:frederic.vannier01@gmail.com?subject=Je viens de voir votre portfolio!">
             <div className="logo-gmail">
@@ -39,7 +51,9 @@ export class Button extends Component {
         </button>
         <button
           onClick={this.handleClick}
-          className={this.state.isToggleOn ? "btn-hidden-github" : "btn-showed-github"}
+          className={
+            this.state.isToggleOn ? "btn-hidden-github" : "btn-showed-github"
+          }
         >
           <Link
             to={{
@@ -55,7 +69,9 @@ export class Button extends Component {
         <button
           onClick={this.handleClick}
           className={
-            this.state.isToggleOn ? "btn-hidden-dribbble" : "btn-showed-dribbble"
+            this.state.isToggleOn
+              ? "btn-hidden-dribbble"
+              : "btn-showed-dribbble"
           }
         >
           <Link
@@ -69,6 +85,8 @@ export class Button extends Component {
             </div>
           </Link>
         </button>
+
+        
       </div>
     );
   }

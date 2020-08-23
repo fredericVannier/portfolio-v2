@@ -28,9 +28,11 @@
   box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
 }
 
+
 .logo-nav img {
   margin-top: .2em;
 }
+
 
 .btn-hidden-gmail {
   background: $accentColor;
@@ -140,16 +142,42 @@
   box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
 }
 
-@keyframes spin {
-  100% {
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
-  }
+
+
+.menu-btn img {
+  margin-top: .2em;
 }
 
-@keyframes spinBis {
-  100% {
-    -webkit-transform: rotate(-315deg);
-    transform: rotate(-315deg);
-  }
+@media only screen and (max-width:480px) {
+  //HOME BUTTON MOBILE ONLY
+.deactivated-button-menu {
+  background: $accentColor;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100rem;
+  border-style: none;
+  top: 87vh;
+  left: 80vw;
+  position: fixed;
+  z-index: 199;
+  transform: rotate(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.activated-button-menu {
+  background: $accentColor;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100rem;
+  border-style: none;
+  top: 87vh;
+  left: 80vw;
+  position: fixed;
+  z-index: 199;
+  transform: rotate(180deg);
+  transition: all 0.3s ease-in-out;
+  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+}
 }

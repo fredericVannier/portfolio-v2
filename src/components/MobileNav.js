@@ -1,43 +1,53 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Fade from "react-reveal/Fade";
 
 export class MobileNav extends Component {
   constructor(props) {
     super(props);
-    this.state = { isToggleOn: true };
-    this.handleClick = this.handleClick.bind(this);
+    this.state = {
+      isMenuToggleOn: true,
+    };
+    this.handleClickMenu = this.handleClickMenu.bind(this);
   }
 
-  handleClick() {
+  handleClickMenu() {
     this.setState((state) => ({
-      isToggleOn: !state.isToggleOn,
+      isMenuToggleOn: !state.isMenuToggleOn,
     }));
   }
 
   render() {
     return (
       <div className="nav-wrapper mobile-visible">
-<button
-          onClick={this.handleClick}
+        <button
+          onClick={this.handleClickMenu}
           className={
-            this.state.isToggleOn ? "deactivated-button" : "activated-button"
+            this.state.isMenuToggleOn
+              ? "deactivated-button-menu"
+              : "activated-button-menu"
           }
         >
-          <div className="logo-nav">
+          <div className="menu-btn">
             <img src="./plus.svg" alt="social media button" />
           </div>
         </button>
-
-        <div className="menu-container">
-            <div className="nav-content">
-                <h3>Accueil</h3>
-            </div>
-            <div className="nav-content">
-                <h3>Réalisations</h3>
-            </div>
-            <div className="nav-content">
-                <h3>Contact</h3>
-            </div>
+        <div
+          className={
+            this.state.isMenuToggleOn
+              ? "menu-container"
+              : "menu-container-activated"
+          }
+        >
+          <div className="nav-content">
+            <h3>Accueil</h3>
+          </div>
+          <div className="nav-content">
+            <h3>Réalisations</h3>
+          </div>
+          <div className="nav-content">
+            <h3>Contact</h3>
+          </div>
         </div>
       </div>
     );

@@ -24,7 +24,7 @@ function App() {
       <SideMenu />
       <Button />
       <Name />
-
+      <MobileNav />
       <div className="App">
         <Switch>
           <Route exact path="/">

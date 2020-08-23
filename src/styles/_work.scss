@@ -296,6 +296,11 @@
 }
 
 @media (min-width: 1200px) {
+
+  .job-description-mobile-bis {
+    visibility: hidden;
+  }
+  
   .slide-1 {
     &:hover {
       .titleSlide {
@@ -453,7 +458,7 @@
 
       .job-description-mobile-bis {
         width: calc(100% - 100px);
-        margin: 5em auto;
+        margin: 0 auto;
         text-align: justify;
       }
     }
