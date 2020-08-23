@@ -1,6 +1,15 @@
 @import "./variables";
 
-.work-wrapper {
+.webdev-wrapper {
+  background: $mainColor;
+  color: $white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.graphist-wrapper {
   background: $mainColor;
   color: $white;
   height: 100vh;
@@ -138,7 +147,6 @@
   -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
   -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
   box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-  border: 7px solid $boxColor;
 }
 
 .images-wrap {
@@ -211,7 +219,7 @@
   background-image: url("../images/cyberpunk-ui.jpeg");
   background-size: cover;
   background-position: center;
-  
+
   .titleSlide {
     margin: 10px 0 0;
     font-size: 1.5em;
@@ -230,7 +238,7 @@
   background-image: url("../images/double-poster-avatar.jpg");
   background-size: cover;
   background-position: center;
-  
+
   .titleSlide {
     margin: 10px 0 0;
     font-size: 1.5em;
@@ -249,7 +257,7 @@
   background-image: url("../images/logo-esport-2020.png");
   background-size: cover;
   background-position: center;
-  
+
   .titleSlide {
     margin: 10px 0 0;
     font-size: 1.5em;
@@ -268,7 +276,7 @@
   background-image: url("../images/agora-2.jpeg");
   background-size: cover;
   background-position: center;
-  
+
   .titleSlide {
     margin: 10px 0 0;
     font-size: 1.5em;
@@ -283,8 +291,11 @@
   }
 }
 
-@media (min-width: 1200px) {
+.job-description-mobile {
+  visibility: hidden;
+}
 
+@media (min-width: 1200px) {
   .slide-1 {
     &:hover {
       .titleSlide {
@@ -344,6 +355,107 @@
       .titleSlide {
         opacity: 1;
         transform: translateX(0);
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .webdev-wrapper {
+    height: 110vh;
+
+    .left-part {
+      width: 0;
+
+      .job-description {
+        visibility: hidden;
+      }
+    }
+
+    .right-part {
+      width: 100vw;
+      height: 100%;
+
+      .job-description-mobile {
+        visibility: visible;
+        width: calc(100% - 100px);
+        margin: 16em auto;
+        text-align: justify;
+        top: 20em;
+      }
+    }
+  }
+
+  .containerSlide {
+    width: 100vw;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .react-slideshow-wrapper {
+    width: 100%;
+  }
+
+  .containerSlide img {
+    height: 100%;
+    width: inherit;
+  }
+
+  .containerSlide-avatar {
+    width: 100%;
+    height: 100%;
+  }
+
+  .containerSlide-avatar img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .images-wrap {
+    display: flex;
+  }
+
+  .images-wrap div {
+    height: 300px;
+    width: 100%;
+    background-position: center;
+  }
+
+  .graphist-wrapper {
+    height: 120vh;
+    
+    .left-part {
+      width: 0;
+      
+      .job-description {
+        visibility: hidden;
+      }
+    }
+    
+    .previews-wrap-2 {
+      width: 100%;
+      
+      .containerSlide {
+        width: 100%;
+      }
+    }
+    
+    .right-part {
+      background-color: $mainColor;
+      width: 100vw;
+      height: 100%;
+
+      .title-wrap-2 {
+        width: fit-content;
+        height: auto;
+        margin-left: 0;
+      }
+
+      .job-description-mobile-bis {
+        width: calc(100% - 100px);
+        margin: 0 auto;
+        text-align: justify;
+        top: 20em;
       }
     }
   }

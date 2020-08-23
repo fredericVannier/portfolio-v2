@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.scss";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Webdev from "./Pages/Webdev";
 import Graphist from "./Pages/Graphist";
 import Home from "./Pages/Home";
@@ -16,6 +16,7 @@ import Realisations from "./Pages/Realisations";
 import SideMenu from "./components/SideMenu";
 import Button from "./components/Button";
 import Name from "./components/Name";
+import MobileNav from "./components/MobileNav";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <SideMenu />
       <Button />
       <Name />
+
       <div className="App">
         <Switch>
           <Route exact path="/">
@@ -52,7 +54,7 @@ function App() {
           <Route exact path="/avatar">
             <Avatar />
           </Route>
-          <Route exact path="/e-sport">
+          <Route exact path="/esport">
             <EsportLogo />
           </Route>
           <Route exact path="/agora-coaching">

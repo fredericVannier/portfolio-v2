@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export class Name extends Component {
     render() {
         return (
-            <div className="divName">
+            <div className="divName  mobile-hidden">
                 <Link to="/">
                 <p className="brandName">Frédéric
                     <br />Vannier

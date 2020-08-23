@@ -13,7 +13,7 @@ export class EsportLogo extends Component {
             </Fade>
             <br />
             <Fade up delay="400">
-              <h1 className="big-title-3">E-sport</h1>
+              <h1 className="big-title-3">Esport</h1>
             </Fade>
             <Fade left delay="200">
               <div className="styled-forme-esport"></div>

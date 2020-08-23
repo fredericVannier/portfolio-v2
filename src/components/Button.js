@@ -16,7 +16,7 @@ export class Button extends Component {
 
   render() {
     return (
-      <div className="btn-wrapper">
+      <div className="btn-wrapper mobile-hidden">
         <button
           onClick={this.handleClick}
           className={

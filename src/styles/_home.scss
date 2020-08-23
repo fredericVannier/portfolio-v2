@@ -85,3 +85,50 @@
     }
   }
 }
+
+.nav-wrapper {
+  visibility: hidden;
+}
+
+.testK {
+  visibility: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+@media (max-width: 480px) {
+
+  .home-title {
+    font-size: 1.9em;
+    padding-top: 40vh;
+    padding-left: 5vw;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .mobile-hidden {
+    visibility: hidden;
+  }
+
+  .nav-wrapper {
+    visibility: visible;
+    width: 100%;
+    height: 100vh;
+
+    .menu-container {
+      background: $accentColor;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: center;
+
+      .nav-content {
+        text-align: center;
+        padding: 10px;
+      }
+    }
+  }
+}
