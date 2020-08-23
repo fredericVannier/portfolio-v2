@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import Fade from "react-reveal/Fade";
 
 export class MobileNav extends Component {
   constructor(props) {
@@ -32,23 +31,8 @@ export class MobileNav extends Component {
             <img src="./plus.svg" alt="social media button" />
           </div>
         </button>
-        <div
-          className={
-            this.state.isMenuToggleOn
-              ? "menu-container"
-              : "menu-container-activated"
-          }
-        >
-          <div className="nav-content">
-            <h3>Accueil</h3>
-          </div>
-          <div className="nav-content">
-            <h3>Réalisations</h3>
-          </div>
-          <div className="nav-content">
-            <h3>Contact</h3>
-          </div>
-        </div>
+        
+
       </div>
     );
   }

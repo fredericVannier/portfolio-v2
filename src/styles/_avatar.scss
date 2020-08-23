@@ -61,7 +61,7 @@
   color: #ea4c89;
 }
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .project-wrapper {
     flex-direction: column-reverse;
 
