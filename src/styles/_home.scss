@@ -103,12 +103,56 @@
   }
 
   .mobile-hidden {
-    visibility: hidden;
+    display: none;
     height: 0;
     width: 0;
   }
 
   .nav-visible {
     visibility: visible;
+  }
+
+  .nav-wrapper {
+    visibility: visible;
+
+    .menu-container-activated {
+      background: $secondColor;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      opacity: 1;
+      transform: translateY(0);
+      transition: all .5s ease-in-out;
+      position: fixed;
+      z-index: 127;
+      
+
+      .nav-content {
+        text-align: center;
+        padding: 10px;
+      }
+    }
+
+    .menu-container {
+      background: $secondColor;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: center;
+      transform: translateY(100%);
+      transition: all .5s ease-in-out;
+      opacity: 0;
+      position: fixed;
+      z-index: 198;
+
+
+      .nav-content {
+        text-align: center;
+        padding: 10px;
+      }
+    }
   }
 }

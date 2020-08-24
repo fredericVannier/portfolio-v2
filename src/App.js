@@ -16,6 +16,7 @@ import Projets from "./Pages/Projets";
 import SideMenu from "./components/SideMenu";
 import Button from "./components/Button";
 import Name from "./components/Name";
+import MobileNav from "./components/MobileNav";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <SideMenu />
       <Button />
       <Name />
+      <MobileNav />
       <div className="App">
         <Switch>
           <Route exact path="/">
