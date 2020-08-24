@@ -52,7 +52,7 @@
   color: #ea4c89;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .project-wrapper {
     flex-direction: column-reverse;
 
@@ -63,28 +63,12 @@
 
     .project-container-left {
       .styled-forme-agora {
-        width: 25em;
+        width: 18em;
         position: relative;
-        top: 5em;
-        left: 1em;
+        top: 3.1em;
+        left: 1.5em;
         margin-bottom: 5rem;
       }
-    }
-
-    .big-title-2-agora {
-      font-weight: 800;
-      font-size: 4em;
-      line-height: 0.7;
-      left: 0.47em;
-      margin-top: 1.68em;
-    }
-
-    .big-title-3-agora {
-      font-weight: 800;
-      font-size: 4em;
-      line-height: 0.7;
-      left: 0.47em;
-      margin-top: 0.7em;
     }
 
     .last-p {

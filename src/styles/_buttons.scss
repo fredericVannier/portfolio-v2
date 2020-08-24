@@ -146,37 +146,3 @@
 .menu-btn img {
   margin-top: 0.2em;
 }
-
-@media (max-width: 480px) {
-  //HOME BUTTON MOBILE ONLY
-  .deactivated-button-menu {
-    background: $accentColor;
-    height: 4rem;
-    width: 4rem;
-    border-radius: 100rem;
-    border-style: none;
-    top: 20px;
-    right: 20px;
-    position: fixed;
-    z-index: 199;
-    transform: rotate(0);
-    transition: all 0.3s ease-in-out;
-  }
-
-  .activated-button-menu {
-    background: $accentColor;
-    height: 4rem;
-    width: 4rem;
-    border-radius: 100rem;
-    border-style: none;
-    top: 87vh;
-    left: 80vw;
-    position: fixed;
-    z-index: 199;
-    transform: rotate(180deg);
-    transition: all 0.3s ease-in-out;
-    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-  }
-}

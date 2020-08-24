@@ -21,7 +21,7 @@ export class Agora extends Component {
           </div>
           <Fade up delay={400}>
             <div className="project-paragraph-container-space">
-              <p className="firt-p project-paragraph">
+              <p className="first-p project-paragraph">
                 Création du logo pour une salle de coaching sportif à Barcelone
                 avec une typographie personnalisée.
                 <br />

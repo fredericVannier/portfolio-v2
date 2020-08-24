@@ -44,7 +44,7 @@ export class Graphist extends Component {
         </div>
         <div className="left-part">
           <Fade up delay={700}>
-            <p className="job-description">
+            <p className="job-description-graphist">
               De formation bac +2 en Communication et Marketing et animé par la
               passion du design, je me suis très vite spécialisé dans le
               graphisme.

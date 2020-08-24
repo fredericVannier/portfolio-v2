@@ -17,7 +17,7 @@ export class Topit extends Component {
           </div>
           <Fade up delay={400}>
             <div className="project-paragraph-container">
-              <p className="firt-p project-paragraph">
+              <p className="first-p project-paragraph">
                 Topit est un réseau social où les utilisateurs doivent
                 s'inscrire afin de pouvoir profiter de toutes les
                 fonctionnalités.

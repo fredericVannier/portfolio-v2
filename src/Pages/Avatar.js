@@ -22,7 +22,7 @@ export class Avatar extends Component {
           </div>
           <Fade up delay={400}>
             <div className="project-paragraph-container-space">
-              <p className="firt-p project-paragraph">
+              <p className="first-p-avatar project-paragraph">
                 Série d'illustrations en cours de développement sur le thème
                 d'Avatar, le dernier maître de l'air.
                 <br />

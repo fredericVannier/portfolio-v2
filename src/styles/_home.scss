@@ -93,7 +93,7 @@
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 
   .home-title {
     font-size: 2em;
@@ -110,45 +110,5 @@
 
   .nav-visible {
     visibility: visible;
-
-    .menu-container-activated {
-      background: $secondColor;
-      width: 100vw;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      opacity: 1;
-      transform: translateX(0);
-      transition: all .5s ease-in-out;
-      position: fixed;
-      z-index: 127;
-      
-
-      .nav-content {
-        text-align: center;
-        padding: 10px;
-      }
-    }
-
-    .menu-container {
-      background: $secondColor;
-      width: 100vw;
-      display: flex;
-      flex-direction: column;
-      height: 100vh;
-      justify-content: center;
-      transform: translateX(100%);
-      transition: all .5s ease-in-out;
-      opacity: 0;
-      position: fixed;
-      z-index: 198;
-
-
-      .nav-content {
-        text-align: center;
-        padding: 10px;
-      }
-    }
   }
 }

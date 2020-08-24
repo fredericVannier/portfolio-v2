@@ -63,6 +63,12 @@
   text-align: justify;
 }
 
+.job-description-graphist {
+  width: 30rem;
+  padding-bottom: 5rem;
+  text-align: justify;
+}
+
 .right-part {
   width: 50vw;
   height: 100vh;
@@ -296,11 +302,10 @@
 }
 
 @media (min-width: 1200px) {
-
   .job-description-mobile-bis {
     visibility: hidden;
   }
-  
+
   .slide-1 {
     &:hover {
       .titleSlide {
@@ -365,7 +370,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .webdev-wrapper {
     height: 110vh;
 
@@ -428,23 +433,23 @@
 
   .graphist-wrapper {
     height: 120vh;
-    
+
     .left-part {
       width: 0;
-      
-      .job-description {
-        visibility: hidden;
+
+      .job-description-graphist {
+        display: none;
       }
     }
-    
+
     .previews-wrap-2 {
       width: 100%;
-      
+
       .containerSlide {
         width: 100%;
       }
     }
-    
+
     .right-part {
       background-color: $mainColor;
       width: 100vw;

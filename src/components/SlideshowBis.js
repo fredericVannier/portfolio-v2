@@ -25,11 +25,13 @@ const SlideshowBis = () => {
         </Link>
         <Link to="/esport">
           <div className="slide-bis-3">
-            <h2 className="titleSlide">esport lopo</h2>
+            <h2 className="titleSlide">esport logo</h2>
           </div>
         </Link>
         <Link to="/agora-coaching">
-          <div className="slide-bis-4">Agora logo</div>
+          <div className="slide-bis-4">
+            <h2 className="titleSlide">Agora logo</h2>
+          </div>
         </Link>
       </Slide>
     </div>

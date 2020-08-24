@@ -22,7 +22,7 @@ export class Cyberpunk extends Component {
 
           <Fade up delay="400">
             <div className="project-paragraph-container-space">
-              <p className="firt-p project-paragraph">
+              <p className="first-p project-paragraph">
                 Ce concept est un projet personnel basé sur le jeux vidéo
                 Cyberpunk 2077.
                 <br />

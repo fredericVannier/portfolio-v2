@@ -22,7 +22,7 @@ export class SpaceExplorer extends Component {
 
           <Fade up delay="400">
             <div className="project-paragraph-container-space">
-              <p className="firt-p project-paragraph">
+              <p className="first-p project-paragraph">
                 Space Explorer est un jeu d'aventure 2D reprenant les codes bien
                 connus du fameux Space Invaders.
                 <br />

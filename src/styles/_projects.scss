@@ -9,7 +9,6 @@
     height: 100vh;
 
     .title-wrap-2 {
-      width: 100vw;
       height: auto;
       margin-left: 17rem;
     }
@@ -200,7 +199,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .project-wrapper {
     flex-direction: column-reverse;
     width: 100vw;
@@ -236,29 +235,38 @@
     }
 
     .styled-forme-project-petsit {
-      top: 4.5em;
+      height: 3.5em;
+      width: 12em;
+      top: 3.5em;
       left: 2em;
     }
 
     .styled-forme-esport {
-      top: 5em;
+      height: 4.5em;
+      width: 16em;
+      top: 3.5em;
       left: 2em;
     }
 
     .styled-forme-cyberpunk {
-      top: 5em;
+      height: 4.5em;
+      width: 16em;
+      top: 3.5em;
       left: 2em;
     }
 
     .styled-forme-space-explorer {
-      top: 5em;
-      left: 1.8em;
+      height: 4.5em;
+      width: 16em;
+      top: 3.5em;
+      left: 1.5em;
     }
 
     .styled-forme-project-topit {
-      top: 4.5em;
-      left: 1.8em;
-      width: 15.3em;
+      height: 3.5em;
+      width: 12em;
+      top: 3.5em;
+      left: 2em;
     }
 
     .project-container-left {
@@ -269,11 +277,13 @@
         margin-left: 0;
 
         .big-title-2 {
+          font-size: 4.5em;
           left: 0.47em;
           margin-top: 0.7em;
         }
 
         .big-title-3 {
+          font-size: 4.5em;
           margin-top: 0.8em;
           left: 0.47em;
         }
@@ -298,6 +308,9 @@
         .project-paragraph {
           width: calc(100% - 100px);
           text-align: justify;
+        }
+        .first-p-avatar {
+          margin-top: 2em;
         }
       }
     }

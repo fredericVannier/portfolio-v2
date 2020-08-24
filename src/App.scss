@@ -14,6 +14,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -22,4 +26,13 @@ a {
 span {
   color: $secondAccentColor;
   font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  
 }

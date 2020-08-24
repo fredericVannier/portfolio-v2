@@ -61,7 +61,7 @@
   color: #ea4c89;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .project-wrapper {
     flex-direction: column-reverse;
 
@@ -73,7 +73,7 @@
     .project-container-left {
       .styled-forme-avatar {
         height: 5em;
-        width: 25em;
+        width: 18em;
         position: relative;
         top: 4em;
         left: 1em;
@@ -100,9 +100,9 @@
     .big-title-3-avatar {
       font-weight: 800;
       font-size: 4em;
-      line-height: 1;
+      line-height: 0.7;
       left: 0.47em;
-      margin-top: 1.68em;
+      margin-top: 1.8em;
     }
   }
 }
