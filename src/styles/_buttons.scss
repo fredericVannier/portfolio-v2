@@ -2,8 +2,8 @@
 
 .deactivated-button {
   background: $accentColor;
-  height: 4rem;
-  width: 4rem;
+  height: 4em;
+  width: 4em;
   border-radius: 100rem;
   border-style: none;
   top: 87vh;
@@ -14,8 +14,8 @@
 
 .activated-button {
   background: $accentColor;
-  height: 4rem;
-  width: 4rem;
+  height: 4em;
+  width: 4em;
   border-radius: 100rem;
   border-style: none;
   top: 87vh;
@@ -23,21 +23,20 @@
   position: fixed;
   z-index: 99;
   animation: spin 0.3s ease-in-out;
-  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
 }
-
 
 .logo-nav img {
-  margin-top: .2em;
+  height: 25px;
+  margin-top: 0.3em;
 }
-
 
 .btn-hidden-gmail {
   background: $accentColor;
-  height: 4rem;
-  width: 4rem;
+  height: 4em;
+  width: 4em;
   border-radius: 100rem;
   border-style: none;
   top: 87vh;
@@ -47,15 +46,15 @@
   transform: translateY(0);
   transition-duration: 500ms;
   transition-property: transform;
-  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
 }
 
 .btn-showed-gmail {
   background: $accentColor;
-  height: 4rem;
-  width: 4rem;
+  height: 4em;
+  width: 4em;
   border-radius: 100rem;
   border-style: none;
   top: 87vh;
@@ -72,8 +71,8 @@
 
 .btn-hidden-dribbble {
   background: $accentColor;
-  height: 4rem;
-  width: 4rem;
+  height: 4em;
+  width: 4em;
   border-radius: 100rem;
   border-style: none;
   top: 87vh;
@@ -83,15 +82,15 @@
   transform: translateX(0);
   transition-duration: 500ms;
   transition-property: transform;
-  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
 }
 
 .btn-showed-dribbble {
   background: $accentColor;
-  height: 4rem;
-  width: 4rem;
+  height: 4em;
+  width: 4em;
   border-radius: 100rem;
   border-style: none;
   top: 87vh;
@@ -108,8 +107,8 @@
 
 .btn-hidden-github {
   background: $accentColor;
-  height: 4rem;
-  width: 4rem;
+  height: 4em;
+  width: 4em;
   border-radius: 100rem;
   border-style: none;
   top: 87vh;
@@ -119,15 +118,15 @@
   transform: translate(0);
   transition-duration: 500ms;
   transition-property: transform;
-  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
 }
 
 .btn-showed-github {
   background: $accentColor;
-  height: 4rem;
-  width: 4rem;
+  height: 4em;
+  width: 4em;
   border-radius: 100rem;
   border-style: none;
   top: 87vh;
@@ -142,12 +141,11 @@
   box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
 }
 
-
 .nav-wrapper {
   display: none;
 }
 .menu-btn img {
-  margin-top: .2em;
+  margin-top: 0.2em;
 }
 
 @media only screen and (max-width: 768px) {
@@ -155,10 +153,11 @@
   .nav-wrapper {
     display: inline;
   }
+
   .deactivated-button-menu {
     background: $accentColor;
-    height: 4rem;
-    width: 4rem;
+    height: 4em;
+    width: 4em;
     border-radius: 100rem;
     border-style: none;
     top: 87vh;
@@ -168,21 +167,234 @@
     transform: rotate(0);
     transition: all 0.3s ease-in-out;
   }
-  
+
   .activated-button-menu {
     background: $accentColor;
-  height: 4rem;
-  width: 4rem;
-  border-radius: 100rem;
-  border-style: none;
-  top: 87vh;
-  left: 80vw;
-  position: fixed;
-  z-index: 199;
-  transform: rotate(180deg);
-  transition: all 0.3s ease-in-out;
-  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
-}
+    height: 4em;
+    width: 4em;
+    border-radius: 100rem;
+    border-style: none;
+    top: 87vh;
+    left: 80vw;
+    position: fixed;
+    z-index: 199;
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn-hidden-gmail {
+    background: $accentColor;
+    height: 4em;
+    width: 4em;
+    border-radius: 100rem;
+    border-style: none;
+    top: 87vh;
+    left: 80vw;
+    position: fixed;
+    z-index: 90;
+    transform: translateX(0);
+    transition-duration: 500ms;
+    transition-property: transform;
+    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+  }
+
+  .btn-showed-gmail {
+    background: $accentColor;
+    height: 4em;
+    width: 4em;
+    border-radius: 100rem;
+    border-style: none;
+    top: 87vh;
+    left: 80vw;
+    position: fixed;
+    z-index: 199;
+    transform: translateX(-6em);
+    transition-duration: 500ms;
+    transition-property: transform;
+    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+  }
+
+  .btn-hidden-dribbble {
+    background: $accentColor;
+    height: 4em;
+    width: 4em;
+    border-radius: 100em;
+    border-style: none;
+    top: 87vh;
+    left: 80vw;
+    position: fixed;
+    z-index: 90;
+    transform: translateX(0);
+    transition-duration: 500ms;
+    transition-property: transform;
+    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+  }
+
+  .btn-showed-dribbble {
+    background: $accentColor;
+    height: 4em;
+    width: 4em;
+    border-radius: 100rem;
+    border-style: none;
+    top: 87vh;
+    left: 80vw;
+    position: fixed;
+    z-index: 199;
+    transform: translateX(-12em);
+    transition-duration: 500ms;
+    transition-property: transform;
+    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+  }
+
+  .btn-hidden-home {
+    background: $accentColor;
+    height: 4em;
+    width: 4em;
+    border-radius: 100em;
+    border-style: none;
+    top: 87vh;
+    left: 80vw;
+    position: fixed;
+    z-index: 90;
+    transform: translateY(0);
+    transition-duration: 500ms;
+    transition-property: transform;
+    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+  }
+
+  .btn-showed-home {
+    background: $accentColor;
+    height: 4em;
+    width: 4em;
+    border-radius: 100rem;
+    border-style: none;
+    top: 87vh;
+    left: 80vw;
+    position: fixed;
+    z-index: 199;
+    transform: translateY(-18em);
+    transition-duration: 500ms;
+    transition-property: transform;
+    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+  }
+
+  .btn-hidden-projects {
+    background: $accentColor;
+    height: 4em;
+    width: 4em;
+    border-radius: 100em;
+    border-style: none;
+    top: 87vh;
+    left: 80vw;
+    position: fixed;
+    z-index: 90;
+    transform: translateY(0);
+    transition-duration: 500ms;
+    transition-property: transform;
+    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+  }
+
+  .btn-showed-projects {
+    background: $accentColor;
+    height: 4em;
+    width: 4em;
+    border-radius: 100rem;
+    border-style: none;
+    top: 87vh;
+    left: 80vw;
+    position: fixed;
+    z-index: 199;
+    transform: translateY(-12em);
+    transition-duration: 500ms;
+    transition-property: transform;
+    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+  }
+
+  .btn-hidden-contact {
+    background: $accentColor;
+    height: 4em;
+    width: 4em;
+    border-radius: 100em;
+    border-style: none;
+    top: 87vh;
+    left: 80vw;
+    position: fixed;
+    z-index: 90;
+    transform: translateY(0);
+    transition-duration: 500ms;
+    transition-property: transform;
+    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+  }
+
+  .btn-showed-contact {
+    background: $accentColor;
+    height: 4em;
+    width: 4em;
+    border-radius: 100rem;
+    border-style: none;
+    top: 87vh;
+    left: 80vw;
+    position: fixed;
+    z-index: 199;
+    transform: translateY(-6em);
+    transition-duration: 500ms;
+    transition-property: transform;
+    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+  }
+
+  .btn-hidden-github {
+    background: $accentColor;
+    height: 4em;
+    width: 4em;
+    border-radius: 100rem;
+    border-style: none;
+    top: 87vh;
+    left: 80vw;
+    position: fixed;
+    z-index: 90;
+    transform: translateX(0);
+    transition-duration: 500ms;
+    transition-property: transform;
+    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.3);
+  }
+
+  .btn-showed-github {
+    background: $accentColor;
+    height: 4em;
+    width: 4em;
+    border-radius: 100rem;
+    border-style: none;
+    top: 87vh;
+    left: 80vw;
+    position: fixed;
+    z-index: 199;
+    transform: translateX(-18em);
+    transition-duration: 500ms;
+    transition-property: transform;
+    -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+  }
 }

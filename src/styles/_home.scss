@@ -2,7 +2,11 @@
 
 .home-page {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
+}
+
+.home-page-mobile {
+  display: none;
 }
 
 .home-wrapper {
@@ -14,20 +18,29 @@
 
 .home-title {
   font-size: 4rem;
-  padding-top: 40vh;
-  padding-left: 5vw;
+  font-weight: 700;
+  padding-top: 25%;
+  padding-left: 15%;
   position: absolute;
   z-index: 1;
 }
 
+.welcoming {
+  font-weight: 500;
+  font-size: 1.5em;
+  margin-top: 23%;
+  position: absolute;
+  padding-left: 15%;
+}
+
 .first {
   color: $accentColor;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .second {
   color: $secondAccentColor;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .divName {
@@ -54,6 +67,7 @@
   right: 0;
   width: 200px;
   z-index: 99;
+  
 
   .sideMenu-wrapper {
     display: flex;
@@ -95,10 +109,28 @@
 
 @media (max-width: 768px) {
 
+  .home-page {
+    display: none;
+  }
+
+  .home-page-mobile {
+    height: 100vh;
+    width: 100vw;
+    display: block;
+  }
+
+  .welcoming {
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-top: 63%;
+    position: absolute;
+    padding-left: 5%;
+  }
+
   .home-title {
     font-size: 3.5em;
-    padding-top: 40vh;
-    padding-left: 5vw;
+    padding-top: 70%;
+    padding-left: 5%;
     position: absolute;
   }
 
@@ -114,19 +146,6 @@
 
   .nav-wrapper {
     visibility: visible;
-
-    .menu-container-activated {
-      background: $secondColor;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      opacity: 1;
-      transform: translateY(0);
-      transition: all .5s ease-in-out;
-      position: fixed;
-      z-index: 127;
       
 
       .nav-content {
@@ -135,24 +154,8 @@
       }
     }
 
-    .menu-container {
-      background: $secondColor;
-      width: 100vw;
-      display: flex;
-      flex-direction: column;
-      height: 100vh;
-      justify-content: center;
-      transform: translateY(100%);
-      transition: all .5s ease-in-out;
-      opacity: 0;
-      position: fixed;
-      z-index: 198;
-
-
       .nav-content {
         text-align: center;
         padding: 10px;
       }
-    }
   }
-}

@@ -17,7 +17,7 @@ export class Button extends Component {
       isToggleOn: !state.isToggleOn,
     }));
   }
-  
+
   handleClickMenu() {
     this.setState((state) => ({
       isMenuToggleOn: !state.isMenuToggleOn,
@@ -85,8 +85,6 @@ export class Button extends Component {
             </div>
           </Link>
         </button>
-
-        
       </div>
     );
   }

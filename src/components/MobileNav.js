@@ -28,7 +28,7 @@ export class MobileNav extends Component {
           }
         >
           <div className="menu-btn">
-            <img src="./plus.svg" alt="social media button" />
+            <img className="menu-icon" src="./plus.svg" alt="social media button" />
           </div>
         </button>
         <div
@@ -38,15 +38,99 @@ export class MobileNav extends Component {
               : "menu-container-activated"
           }
         >
-          <div className="nav-content">
-            <h3>Accueil</h3>
-          </div>
-          <div className="nav-content">
-            <h3>Réalisations</h3>
-          </div>
-          <div className="nav-content">
-            <h3>Contact</h3>
-          </div>
+          <button
+            onClick={this.handleClickMenu}
+            className={
+              this.state.isMenuToggleOn ? "btn-hidden-home" : "btn-showed-home"
+            }
+          >
+            <Link to="/">
+              <div className="logo-nav">
+                <img src="./home.svg" alt="home" />
+              </div>
+            </Link>
+          </button>
+          <button
+            onClick={this.handleClickMenu}
+            className={
+              this.state.isMenuToggleOn
+                ? "btn-hidden-projects"
+                : "btn-showed-projects"
+            }
+          >
+            <Link to="/projets">
+              <div className="logo-nav">
+                <img src="./rocket.svg" alt="projects" />
+              </div>
+            </Link>
+          </button>
+          <button
+            onClick={this.handleClickMenu}
+            className={
+              this.state.isMenuToggleOn
+                ? "btn-hidden-contact"
+                : "btn-showed-contact"
+            }
+          >
+            <Link to="/contact">
+              <div className="logo-nav">
+                <img src="./chat.svg" alt="contact" />
+              </div>
+            </Link>
+          </button>
+
+          <button
+            onClick={this.handleClick}
+            className={
+              this.state.isMenuToggleOn
+                ? "btn-hidden-gmail"
+                : "btn-showed-gmail"
+            }
+          >
+            <a href="mailto:frederic.vannier01@gmail.com?subject=Je viens de voir votre portfolio!">
+              <div className="logo-gmail">
+                <img src="./email.svg" alt="Gmail" />
+              </div>
+            </a>
+          </button>
+          <button
+            onClick={this.handleClick}
+            className={
+              this.state.isMenuToggleOn
+                ? "btn-hidden-github"
+                : "btn-showed-github"
+            }
+          >
+            <Link
+              to={{
+                pathname: "https://github.com/Fred011",
+              }}
+              target="_blank"
+            >
+              <div className="logo-nav">
+                <img src="./github.svg" alt="Github" />
+              </div>
+            </Link>
+          </button>
+          <button
+            onClick={this.handleClick}
+            className={
+              this.state.isMenuToggleOn
+                ? "btn-hidden-dribbble"
+                : "btn-showed-dribbble"
+            }
+          >
+            <Link
+              to={{
+                pathname: "https://dribbble.com/FVDesign",
+              }}
+              target="_blank"
+            >
+              <div className="logo-nav">
+                <img src="./dribbble.svg" alt="Dribbble" />
+              </div>
+            </Link>
+          </button>
         </div>
       </div>
     );
