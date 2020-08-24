@@ -164,8 +164,34 @@
     background-size: contain;
     background-position: center;
   }
+  //CYBERPUNK LOGO
+  .project-container-right-cyberpunk {
+    width: 50vw;
+    height: 100vh;
+    background-image: url("../images/cyberpunk-logo.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .project-container-right-cyberpunk-logo {
+    width: 50vw;
+    height: 100vh;
+    background-image: url("../images/cyberpunk-logo.png");
+    background-size: cover;
+    background-position: center;
+  }
 
   .styled-forme-cyberpunk {
+    height: 5rem;
+    width: 23rem;
+    background: $secondAccentColor;
+    position: relative;
+    top: 13rem;
+    left: -10px;
+    margin-bottom: 5rem;
+  }
+
+  .styled-forme-cyberpunk-logo {
     height: 5rem;
     width: 23rem;
     background: $secondAccentColor;
@@ -233,6 +259,11 @@
       background-size: cover;
     }
 
+    .project-container-right-cyberpunk-logo {
+      width: 100vw;
+      height: 450px;
+    }
+
     .styled-forme-project-petsit {
       height: 3.5em;
       width: 12em;
@@ -248,6 +279,13 @@
     }
 
     .styled-forme-cyberpunk {
+      height: 4.5em;
+      width: 16em;
+      top: 3.5em;
+      left: 2em;
+    }
+
+    .styled-forme-cyberpunk-logo {
       height: 4.5em;
       width: 16em;
       top: 3.5em;

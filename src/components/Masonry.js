@@ -6,7 +6,9 @@ import topit from "../images/desktop-topit.jpg";
 import esport from "../images/logo-esport-2020.png";
 import petsit from "../images/petsit-2.jpeg";
 import agora from "../images/agora-2.jpeg";
+import space from "../images/spaceExplorer.png";
 import cyberpunk from "../images/cyberpunk-ui.jpeg";
+import CyberpunkLogo from "../images/cyberpunk-logo.png";
 
 const Masonry = () => {
   return (
@@ -31,6 +33,16 @@ const Masonry = () => {
               <img src={avatar} alt="Avatar" />
             </div>
           </Fade>
+        </Link>
+        <Link to="/cyberpunk-logo">
+        <Fade up delay="600">
+          <div className="box">
+            <div className="content">
+              <h2>Cyberpunk logo</h2>
+            </div>
+            <img src={CyberpunkLogo} alt="Cyberpunk-logo" />
+          </div>
+        </Fade>
         </Link>
         <Link to="/esport">
           <Fade up delay="600">
@@ -69,6 +81,16 @@ const Masonry = () => {
               <h2>Logo</h2>
             </div>
             <img src={agora} alt="Agora Logo" />
+          </div>
+        </Fade>
+        </Link>
+        <Link to="/space-explorer">
+        <Fade up delay="400">
+          <div className="box">
+            <div className="content">
+              <h2>Space Explorer</h2>
+            </div>
+            <img src={space} alt="Space Explorer" />
           </div>
         </Fade>
         </Link>

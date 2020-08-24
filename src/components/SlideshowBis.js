@@ -15,7 +15,7 @@ const SlideshowBis = () => {
       <Slide {...proprietes}>
         <Link to="/cyberpunk">
           <div className="slide-bis-1">
-            <h2 className="titleSlide">Cyberpunk UI concept</h2>
+            <h2 className="titleSlide">Cyberpunk 2077 UI concept</h2>
           </div>
         </Link>
         <Link to="/avatar">
@@ -28,8 +28,13 @@ const SlideshowBis = () => {
             <h2 className="titleSlide">esport logo</h2>
           </div>
         </Link>
-        <Link to="/agora-coaching">
+        <Link to="/cyberpunk-logo">
           <div className="slide-bis-4">
+            <h2 className="titleSlide">Cyberpunk 2077 logo</h2>
+          </div>
+        </Link>
+        <Link to="/agora-coaching">
+          <div className="slide-bis-5">
             <h2 className="titleSlide">Agora logo</h2>
           </div>
         </Link>

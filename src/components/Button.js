@@ -45,7 +45,7 @@ export class Button extends Component {
         >
           <a href="mailto:frederic.vannier01@gmail.com?subject=Je viens de voir votre portfolio!">
             <div className="logo-gmail">
-              <img src="./plus.svg" alt="Gmail" />
+              <img src="./email.svg" alt="Gmail" />
             </div>
           </a>
         </button>
@@ -62,7 +62,7 @@ export class Button extends Component {
             target="_blank"
           >
             <div className="logo-nav">
-              <img src="./plus.svg" alt="Github" />
+              <img src="./github.svg" alt="Github" />
             </div>
           </Link>
         </button>
@@ -81,7 +81,7 @@ export class Button extends Component {
             target="_blank"
           >
             <div className="logo-nav">
-              <img src="./plus.svg" alt="Dribbble" />
+              <img src="./dribbble.svg" alt="Dribbble" />
             </div>
           </Link>
         </button>

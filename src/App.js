@@ -17,6 +17,7 @@ import SideMenu from "./components/SideMenu";
 import Button from "./components/Button";
 import Name from "./components/Name";
 import MobileNav from "./components/MobileNav";
+import CyberpunkLogo from "./Pages/CyberpunkLogo";
 
 function App() {
   return (
@@ -62,6 +63,9 @@ function App() {
           </Route>
           <Route exact path="/projets">
             <Projets />
+          </Route>
+          <Route exact path="/cyberpunk-logo">
+            <CyberpunkLogo />
           </Route>
         </Switch>
       </div>
