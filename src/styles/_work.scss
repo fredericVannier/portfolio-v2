@@ -372,7 +372,7 @@
 
 @media (max-width: 768px) {
   .webdev-wrapper {
-    height: 110vh;
+    height: 100%;
 
     .left-part {
       width: 0;
@@ -383,17 +383,31 @@
     }
 
     .right-part {
-      width: 100vw;
+      width: 100%;
       height: 100%;
 
       .title-wrap {
         margin-left: 2em;
+
+        .styled-forme {
+          width: 20em;
+          top: 15.4vh;
+          margin-left: 2.5vw;
+        }
+
+        .big-title {
+          font-size: 4.5em;
+        }
+
+        .big-title-bottom {
+          font-size: 4.5em;
+        }
       }
 
       .job-description-mobile {
         visibility: visible;
         width: calc(100% - 100px);
-        margin: 16em auto;
+        margin: 18em auto 5em;
         text-align: justify;
         top: 20em;
       }
@@ -436,7 +450,7 @@
   }
 
   .graphist-wrapper {
-    height: 120vh;
+    height: 100%;
 
     .left-part {
       width: 0;
@@ -458,15 +472,30 @@
       background-color: $mainColor;
       width: 100vw;
       height: 100%;
+      
 
       .title-wrap-2 {
         height: auto;
         margin-left: 2em;
+        
+        .styled-forme-2 {
+          width: 14.5rem;
+          top: 15.5vh;
+          margin-left: 2.5vw;
+        }
+
+        .big-title {
+          font-size: 4.5em;
+        }
+
+        .big-title-bottom {
+          font-size: 4.5em;
+        }
       }
 
       .job-description-mobile-bis {
         width: calc(100% - 100px);
-        margin: 3em auto;
+        margin: 5em auto;
         text-align: justify;
       }
     }
