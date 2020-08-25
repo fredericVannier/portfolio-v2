@@ -25,8 +25,8 @@ export class Petsit extends Component {
                 <br />
                 Une fois connecté, il est possible de poster une annonce pour
                 demander à garder votre animal et les petsitters peuvent y
-                repondrent. Chaque utilisateur a un profil qu'il peut modifier
-                comme il l'entend.
+                repondre. Chaque utilisateur a un profil qu'il peut modifier
+                comme il le souhaite.
               </p>
               <br />
               <p className="project-paragraph">

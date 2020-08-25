@@ -36,7 +36,7 @@ export class Topit extends Component {
               </p>
               <br />
               <p className="project-paragraph">
-                Ce projet à été réaliser seul pour valider ma certification du
+                Ce projet à été réalisé seul pour valider ma certification du
                 bootcamp Ironhack.
                 <br />
                 <br />
