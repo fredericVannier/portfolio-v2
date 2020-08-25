@@ -23,13 +23,13 @@ export class EsportLogo extends Component {
           <Fade up delay="400">
             <div className="project-paragraph-container-space">
               <p className="first-p project-paragraph">
-                Création de logos e-sport en tout genre pour équipes de joueurs
+                Création de logos esport en tout genre pour équipes de joueurs
                 professionnels et amateurs.
                 <br />
               </p>
               <br />
               <p className="project-paragraph last-p">
-                Projets réalisés avec <span>Photoshop</span> et{" "}
+                Projet réalisé avec <span>Photoshop</span> et{" "}
                 <span>Illustrator</span>.
                 <br />
                 <br />

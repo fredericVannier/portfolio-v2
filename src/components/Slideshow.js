@@ -15,7 +15,7 @@ const Slideshow = () => {
       <Slide {...proprietes}>
         <Link to="/topit">
           <div className="slide-1">
-            <h2 className="titleSlide">TOPIT</h2>
+            <h2 className="titleSlide">Topit</h2>
           </div>
         </Link>
         <Link to="/space-explorer">

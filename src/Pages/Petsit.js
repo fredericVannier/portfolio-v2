@@ -19,9 +19,9 @@ export class Petsit extends Component {
           <Fade up delay="400">
             <div className="project-paragraph-container">
               <p className="first-p project-paragraph">
-                Petsit est une application permettant de mettre en relation
-                lespersonnes souhaitant faire garder leur animal et les
-                petsitters. Cette application est conçut uniquement pour mobile.
+                Petsit est une application permettant de mettre en relation les
+                personnes souhaitant faire garder leur animal et les petsitters.
+                Cette application est conçut uniquement pour mobile.
                 <br />
                 Une fois connecté, il est possible de poster une annonce pour
                 demander à garder votre animal et les petsitters peuvent y
@@ -30,7 +30,8 @@ export class Petsit extends Component {
               </p>
               <br />
               <p className="project-paragraph">
-                Ce projet a été réalisé en équipe et en utilisant les langages{" "}
+                Ce projet a été réalisé avec un autre développeur et en
+                utilisant les langages{" "}
                 <span>HTML, CSS, HBS, NodeJS, Express</span> et{" "}
                 <span>Javascript</span>. Le déploiement est effectué avec
                 Heroku.

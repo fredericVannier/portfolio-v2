@@ -26,8 +26,8 @@ export class Cyberpunk extends Component {
                 Ce concept est un projet personnel basé sur le jeu vidéo
                 Cyberpunk 2077.
                 <br />
-                Inspiré par l'univers rétro futuriste, j'ai imaginé une
-                partie du site internet où seraient présenté les personnages.
+                Inspiré par l'univers rétro futuriste, j'ai imaginé une partie
+                du site internet où seraient présentés les personnages.
               </p>
               <br />
               <p className="project-paragraph last-p">

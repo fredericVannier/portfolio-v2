@@ -8,11 +8,11 @@ export default function Webdev() {
       <div className="left-part">
         <Fade up delay={700}>
           <p className="job-description">
-            Passinonné par le graphisme et les technologies web, c'est tout
-            naturellement que je me suis tournée vers le métier de développeur.
+            Passinonné par le graphisme et les technologies du web, c'est tout
+            naturellement que je me suis tourné vers le métier de développeur.
             <br />
             <br />
-            J'ai donc rejoins les rangs du bootcamp Ironhack, à Barcelone, pour
+            J'ai donc rejoint les rangs du bootcamp Ironhack, à Barcelone, pour
             devenir Développeur Full Stack. Durant cette formation de 3 mois,
             j'ai pu réaliser ces 3 projets ainsi que mon premier site personnel.
           </p>
@@ -41,11 +41,11 @@ export default function Webdev() {
 
         <Fade up delay={700}>
           <p className="job-description-mobile">
-            Passinonné par le graphisme et les technologies web, c'est tout
-            naturellement que je me suis tournée vers le métier de développeur.
+            Passinonné par le graphisme et les technologies du web, c'est tout
+            naturellement que je me suis tourné vers le métier de développeur.
             <br />
             <br />
-            J'ai donc rejoins les rangs du bootcamp Ironhack, à Barcelone, pour
+            J'ai donc rejoint les rangs du bootcamp Ironhack, à Barcelone, pour
             devenir Développeur Full Stack. Durant cette formation de 3 mois,
             j'ai pu réaliser ces 3 projets ainsi que mon premier site personnel.
           </p>

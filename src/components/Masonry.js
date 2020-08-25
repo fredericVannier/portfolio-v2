@@ -35,64 +35,64 @@ const Masonry = () => {
           </Fade>
         </Link>
         <Link to="/cyberpunk-logo">
-        <Fade up delay="600">
-          <div className="box">
-            <div className="content">
-              <h2>Cyberpunk logo</h2>
+          <Fade up delay="600">
+            <div className="box">
+              <div className="content">
+                <h2>Logo Cyberpunk</h2>
+              </div>
+              <img src={CyberpunkLogo} alt="Cyberpunk-logo" />
             </div>
-            <img src={CyberpunkLogo} alt="Cyberpunk-logo" />
-          </div>
-        </Fade>
+          </Fade>
         </Link>
         <Link to="/esport">
           <Fade up delay="600">
             <div className="box">
               <div className="content">
-                <h2>Esport logo</h2>
+                <h2>Logo esport</h2>
               </div>
               <img src={esport} alt="E-sport Logo" />
             </div>
           </Fade>
         </Link>
         <Link to="/petsit">
-        <Fade up delay="400">
-          <div className="box">
-            <div className="content">
-              <h2>Petsit</h2>
+          <Fade up delay="400">
+            <div className="box">
+              <div className="content">
+                <h2>Petsit</h2>
+              </div>
+              <img src={petsit} alt="Petsit" />
             </div>
-            <img src={petsit} alt="Petsit" />
-          </div>
-        </Fade>
+          </Fade>
         </Link>
         <Link to="/cyberpunk">
-        <Fade up delay="500">
-          <div className="box">
-            <div className="content">
-              <h2>Cyberpunk</h2>
+          <Fade up delay="500">
+            <div className="box">
+              <div className="content">
+                <h2>Cyberpunk</h2>
+              </div>
+              <img src={cyberpunk} alt="Cyberpunk-UI" />
             </div>
-            <img src={cyberpunk} alt="Cyberpunk-UI" />
-          </div>
-        </Fade>
+          </Fade>
         </Link>
         <Link to="/agora-coaching">
-        <Fade up delay="600">
-          <div className="box">
-            <div className="content">
-              <h2>Logo</h2>
+          <Fade up delay="600">
+            <div className="box">
+              <div className="content">
+                <h2>Logo Agora</h2>
+              </div>
+              <img src={agora} alt="Agora Logo" />
             </div>
-            <img src={agora} alt="Agora Logo" />
-          </div>
-        </Fade>
+          </Fade>
         </Link>
         <Link to="/space-explorer">
-        <Fade up delay="400">
-          <div className="box">
-            <div className="content">
-              <h2>Space Explorer</h2>
+          <Fade up delay="400">
+            <div className="box">
+              <div className="content">
+                <h2>Space Explorer</h2>
+              </div>
+              <img src={space} alt="Space Explorer" />
             </div>
-            <img src={space} alt="Space Explorer" />
-          </div>
-        </Fade>
+          </Fade>
         </Link>
       </div>
     </div>

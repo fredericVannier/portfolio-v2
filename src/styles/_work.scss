@@ -57,13 +57,11 @@
 
 .job-description {
   width: 30rem;
-  padding-bottom: 5rem;
   text-align: justify;
 }
 
 .job-description-graphist {
   width: 30rem;
-  padding-bottom: 5rem;
   text-align: justify;
 }
 
@@ -103,8 +101,9 @@
 }
 
 .previews-container-2 {
-  overflow-x: auto;
+  overflow: hidden;
   position: relative;
+  width: 100%;
   top: 26vh;
   margin: 0 auto;
 }
@@ -230,6 +229,14 @@
 @media (min-width: 1200px) {
   .job-description-mobile-bis {
     visibility: hidden;
+  }
+
+  .up:hover {
+      color: $thirdAccentColor
+  }
+
+  .down:hover {
+      color: $thirdAccentColor
   }
 
   .slide-1 {

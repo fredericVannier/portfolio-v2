@@ -27,12 +27,14 @@ export class SpaceExplorer extends Component {
                 connus du fameux Space Invaders.
                 <br />
                 Vous y incarnez un pilote sur un champ de bataille spatiale
-                affrontant une horde d'enemis qui vous traqueront sans répit.
+                affrontant une horde d'enemis qui vous traqueront sans répit. Le
+                jeu se joue uniquement sur ordinateur.
               </p>
               <br />
               <p className="project-paragraph">
-                Ce projet est entièrement réaliser seul avec comme langages{" "}
-                <span>HTML, CSS</span> et <span>Javascript</span>. Le déploiement est effectué avec Github.
+                Ce projet est entièrement réalisé seul avec comme langages{" "}
+                <span>HTML, CSS</span> et <span>Javascript</span>. Le
+                déploiement est effectué avec Github.
                 <br />
                 <br />
                 <div className="spaceLinks">
