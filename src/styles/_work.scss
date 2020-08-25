@@ -4,7 +4,7 @@
   background: $mainColor;
   color: $white;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -13,18 +13,16 @@
   background: $mainColor;
   color: $white;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .title-wrap {
-  width: fit-content;
   height: auto;
 }
 
 .title-wrap-2 {
-  width: fit-content;
   height: auto;
   margin-left: 23rem;
 }
@@ -50,7 +48,7 @@
 }
 
 .left-part {
-  width: 50vw;
+  width: 50%;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -70,7 +68,7 @@
 }
 
 .right-part {
-  width: 50vw;
+  width: 50%;
   height: 100vh;
   background: $secondColor;
 }
@@ -116,7 +114,7 @@
   justify-content: flex-start;
   margin: 0 auto;
   top: 0;
-  width: 50vw;
+  width: 50%;
 }
 
 .previews-wrap-2 {
@@ -137,13 +135,13 @@
 }
 
 .containerSlide-avatar {
-  width: 50vw;
+  width: 50%;
   height: 100vh;
 }
 
 .containerSlide-avatar img {
   height: 100vh;
-  width: 50vw;
+  width: 50%;
 }
 
 .titleSlide {
