@@ -26,7 +26,6 @@ export default function Contact() {
             <section className="second-section">
               <p>
                 N'hésitez pas à me contacter par e-mail
-                <br />
                 pour une éventuelle collaboration
               </p>
             </section>

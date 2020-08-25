@@ -17,12 +17,17 @@ body {
 
 h2 {
   font-size: 40px;
-  margin-top: 20vh;
+  margin-top: 25vh;
   margin-left: 23vw;
+  line-height: 1.4;
 }
 
 .contact-text {
   margin-left: 23vw;
+
+  p {
+    line-height: 1.8;
+  }
 }
 
 span {
@@ -37,4 +42,19 @@ section {
     color: $secondAccentColor;
     font-weight: 600;
     font-size: 1.2rem;
+}
+
+.first-section {
+  margin-top: 2em;
+}
+
+@media (max-width: 768px) {
+
+  h2 {
+    margin-left: 10vw;
+    font-size: 1.5em;
+  }
+  .contact-text {
+    margin-left: 10vw;
+  }
 }
