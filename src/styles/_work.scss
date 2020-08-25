@@ -407,12 +407,11 @@
       background-color: $mainColor;
       width: 100vw;
       height: 100%;
-      
 
       .title-wrap-2 {
         height: auto;
         margin-left: 2em;
-        
+
         .styled-forme-2 {
           width: 14.5rem;
           top: 15.5vh;
@@ -432,6 +431,21 @@
         width: calc(100% - 100px);
         margin: 5em auto;
         text-align: justify;
+      }
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .styled-forme-2 {
+    width: 5rem;
+  }
+  .webdev-wrapper {
+    .right-part {
+      .title-wrap {
+        .styled-forme {
+          width: 17em;
+        }
       }
     }
   }
