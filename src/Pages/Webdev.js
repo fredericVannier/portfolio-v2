@@ -41,7 +41,7 @@ export default function Webdev() {
 
         <Fade up delay={700}>
           <p className="job-description-mobile">
-            Passinonné par le graphisme et les technologies du web, c'est tout
+            Passionné par le graphisme et les technologies du web, c'est tout
             naturellement que je me suis tourné vers le métier de développeur.
             <br />
             <br />
