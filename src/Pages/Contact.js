@@ -21,7 +21,7 @@ export default function Contact() {
           </div>
           <div className="contact-text">
             <section className="first-section">
-              <p>Intéressé pour une collaboration avec moi?</p>
+              <p>Vous souhaitez collaborer avec moi?</p>
             </section>
             <section className="second-section">
               <p>
