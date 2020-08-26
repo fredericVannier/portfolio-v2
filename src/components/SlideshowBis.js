@@ -38,6 +38,11 @@ const SlideshowBis = () => {
             <h2 className="titleSlide">Agora logo</h2>
           </div>
         </Link>
+        <Link to="/projets">
+          <div className="slide-bis-6">
+            <h2 className="titleSlide">Projets</h2>
+          </div>
+        </Link>
       </Slide>
     </div>
   );

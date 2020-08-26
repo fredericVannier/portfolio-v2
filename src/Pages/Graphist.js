@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
 import SlideshowBis from "../components/SlideshowBis";
+import { Link } from "react-router-dom";
 
 export class Graphist extends Component {
   render() {
@@ -45,15 +46,15 @@ export class Graphist extends Component {
         <div className="left-part">
           <Fade up delay={700}>
             <p className="job-description-graphist">
-              De formation bac +2 en Communication et Marketing et animé par la
+              Diplomé en <span>Communication et Marketing</span> et animé par la
               passion du design, je me suis très vite spécialisé dans le
               graphisme.
               <br />
               <br />
               Fort de 7 ans d'expérience, je souhaite toujours m'améliorer et
               apprendre de nouvelles tendances. Au cours de ces années, j'ai pu
-              réaliser des projets divers et variés que vous pouvez consulter
-              ici.
+              réaliser des projets divers et variés que vous pouvez consulter{" "}
+              <Link to="/projets"><span>ici</span>.</Link>
             </p>
           </Fade>
         </div>

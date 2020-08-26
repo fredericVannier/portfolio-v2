@@ -13,7 +13,7 @@ export default function Webdev() {
             <br />
             <br />
             J'ai donc rejoint les rangs du bootcamp Ironhack, à Barcelone, pour
-            devenir Développeur Full Stack. Durant cette formation de 3 mois,
+            devenir <span>développeur Full Stack</span>. Durant cette formation,
             j'ai pu réaliser ces 3 projets ainsi que mon premier site personnel.
           </p>
         </Fade>
@@ -46,7 +46,7 @@ export default function Webdev() {
             <br />
             <br />
             J'ai donc rejoint les rangs du bootcamp Ironhack, à Barcelone, pour
-            devenir Développeur Full Stack. Durant cette formation de 3 mois,
+            devenir <span>développeur Full Stack</span>. Durant cette formation,
             j'ai pu réaliser ces 3 projets ainsi que mon premier site personnel.
           </p>
         </Fade>

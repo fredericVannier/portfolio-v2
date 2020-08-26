@@ -222,6 +222,12 @@
   background-position: center;
 }
 
+.slide-bis-6 {
+  background-image: url("../images/more.png");
+  background-size: cover;
+  background-position: center;
+}
+
 .job-description-mobile {
   visibility: hidden;
 }
@@ -303,6 +309,15 @@
   }
 
   .slide-bis-5 {
+    &:hover {
+      .titleSlide {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  }
+
+  .slide-bis-6 {
     &:hover {
       .titleSlide {
         opacity: 1;
