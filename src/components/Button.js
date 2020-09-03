@@ -57,7 +57,7 @@ export class Button extends Component {
         >
           <Link
             to={{
-              pathname: "https://github.com/Fred011",
+              pathname: "https://github.com/fredericVannier",
             }}
             target="_blank"
           >
