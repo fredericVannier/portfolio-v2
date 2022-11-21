@@ -18,6 +18,7 @@ import Button from "./components/Button";
 import Name from "./components/Name";
 import MobileNav from "./components/MobileNav";
 import CyberpunkLogo from "./Pages/CyberpunkLogo";
+import IcoSystem from "./Pages/IcoSystem";
 
 function App() {
   return (
@@ -48,6 +49,9 @@ function App() {
           </Route>
           <Route exact path="/petsit">
             <Petsit />
+          </Route>
+          <Route exact path="/icoSystem">
+            <IcoSystem />
           </Route>
           <Route exact path="/cyberpunk">
             <Cyberpunk />

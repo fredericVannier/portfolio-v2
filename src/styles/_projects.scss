@@ -138,6 +138,15 @@
     background-position: center;
   }
 
+  //icoSystem
+  .project-container-right-icoSystem {
+    width: 50vw;
+    height: 100vh;
+    background-image: url("../images/icoSystem-landing-page-2.png");
+    background-size: cover;
+    background-position: center;
+  }
+
   .styled-forme-project-topit {
     height: 5rem;
     width: 17rem;
@@ -243,6 +252,11 @@
     }
 
     .project-container-right-petsit {
+      width: 100vw;
+      height: 450px;
+    }
+
+    .project-container-right-icoSystem {
       width: 100vw;
       height: 450px;
     }
