@@ -1,13 +1,253 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── shadcn/ui CSS variables ────────────────────────────────────────────────── */
+@layer base {
+  :root {
+    --background: 0 0% 3%;
+    --foreground: 0 0% 98%;
+    --primary: 217 100% 62%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 6%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 55%;
+    --destructive: 348 100% 46%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 15%;
+    --input: 0 0% 7%;
+    --ring: 217 100% 62%;
+    --radius: 0.375rem;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ── Base / Reset ───────────────────────────────────────────────────────────── */
+@layer base {
+  * {
+    @apply m-0 p-0 outline-none;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  body {
+    @apply bg-main text-white overflow-x-hidden;
+  }
+
+  a {
+    @apply no-underline text-inherit;
+  }
+}
+
+/* ── Slideshow overrides (react-slideshow-image) ────────────────────────────── */
+@layer utilities {
+  .react-slideshow-wrapper {
+    display: flex;
+    width: 650px;
+    overflow: hidden;
+    box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 1);
+  }
+
+  .images-wrap {
+    display: flex;
+  }
+
+  .images-wrap div {
+    height: 450px;
+    width: 100%;
+  }
+
+  /* Webdev slides */
+  .slide-1 { background-image: url("./images/desktop-topit.jpg"); background-size: cover; background-position: center; }
+  .slide-2 { background-image: url("./images/spaceExplorer.png"); background-size: cover; background-position: center; }
+  .slide-3 { background-image: url("./images/petsit-2.jpeg"); background-size: cover; background-position: center; }
+
+  /* Graphist slides */
+  .slide-bis-1 { background-image: url("./images/cyberpunk-ui.jpeg"); background-size: cover; background-position: center; }
+  .slide-bis-2 { background-image: url("./images/double-poster-avatar.jpg"); background-size: cover; background-position: center; }
+  .slide-bis-3 { background-image: url("./images/logo-esport-2020.png"); background-size: cover; background-position: center; }
+  .slide-bis-4 { background-image: url("./images/cyberpunk-logo.png"); background-size: cover; background-position: center; }
+  .slide-bis-5 { background-image: url("./images/agora-2.jpeg"); background-size: cover; background-position: center; }
+  .slide-bis-6 { background-image: url("./images/more.png"); background-size: cover; background-position: center; }
+
+  /* Slide title hover reveal */
+  .titleSlide {
+    margin: 10px 0 0;
+    font-size: 1.5em;
+    font-variant-caps: all-small-caps;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 50px;
+    opacity: 0;
+    transform: translateX(-0.5em);
+    transition: all 0.5s;
+    will-change: opacity, transform;
+  }
+
+  .slide-1:hover .titleSlide,
+  .slide-2:hover .titleSlide,
+  .slide-3:hover .titleSlide,
+  .slide-bis-1:hover .titleSlide,
+  .slide-bis-2:hover .titleSlide,
+  .slide-bis-3:hover .titleSlide,
+  .slide-bis-4:hover .titleSlide,
+  .slide-bis-5:hover .titleSlide,
+  .slide-bis-6:hover .titleSlide {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  @media (max-width: 768px) {
+    .react-slideshow-wrapper { width: 100%; }
+    .images-wrap div { height: 300px; }
+  }
+}
+
+/* ── Masonry hover reveal ───────────────────────────────────────────────────── */
+@layer utilities {
+  .box-content-label {
+    position: absolute;
+    margin-top: 20px;
+    opacity: 0;
+    transform: translateX(-0.5em);
+    transition: all 1s;
+    will-change: opacity, transform;
+  }
+
+  .box-content-label h2 {
+    margin: 0;
+    font-size: 1.1em;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+  }
+
+  @media (min-width: 1200px) {
+    .masonry-box:hover .box-content-label {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+
+/* ── Floating button animations (desktop) ───────────────────────────────────── */
+@layer utilities {
+  .btn-base {
+    @apply bg-accent h-16 w-16 rounded-full border-none fixed z-[90] transition-[transform] duration-500;
+    top: 87vh;
+    left: 5vw;
+  }
+
+  .btn-hidden-gmail  { @apply btn-base translate-y-0; box-shadow: 10px 10px 16px -10px rgba(0,0,0,0.3); }
+  .btn-showed-gmail  { @apply btn-base -translate-y-28; box-shadow: 10px 10px 16px -10px rgba(0,0,0,1); }
+  .btn-hidden-github { @apply btn-base translate-x-0 translate-y-0; box-shadow: 10px 10px 16px -10px rgba(0,0,0,0.3); }
+  .btn-showed-github { @apply btn-base translate-x-20 -translate-y-20; box-shadow: 10px 10px 16px -10px rgba(0,0,0,1); }
+  .btn-hidden-dribbble { @apply btn-base translate-x-0; box-shadow: 10px 10px 16px -10px rgba(0,0,0,0.3); }
+  .btn-showed-dribbble { @apply btn-base translate-x-28; box-shadow: 10px 10px 16px -10px rgba(0,0,0,1); }
+}
+
+/* ── Project pages layout ───────────────────────────────────────────────────── */
+@layer utilities {
+  .project-wrapper {
+    @apply flex flex-row w-full;
+  }
+
+  .project-left {
+    @apply w-1/2 min-h-screen overflow-visible relative;
+  }
+
+  .project-right {
+    @apply w-1/2 min-h-screen bg-cover bg-center;
+  }
+
+  .project-title-area {
+    height: auto;
+    margin-left: 17rem;
+  }
+
+  .big-title-project {
+    font-weight: 800;
+    font-size: 6rem;
+    line-height: 0.7;
+    font-variant-caps: all-small-caps;
+    position: absolute;
+    z-index: 2;
+    margin-top: 11.7rem;
+  }
+
+  .big-title-project-b {
+    font-weight: 800;
+    font-size: 6rem;
+    line-height: 1.4;
+    font-variant-caps: all-small-caps;
+    position: absolute;
+    z-index: 2;
+    margin-top: 12.5rem;
+  }
+
+  .project-para-block {
+    @apply flex flex-col items-center mt-[250px];
+  }
+
+  .project-para-block-tall {
+    @apply flex flex-col items-center mt-[20rem];
+  }
+
+  .project-para {
+    @apply w-[30rem] text-justify;
+  }
+
+  .project-links {
+    @apply flex justify-evenly font-semibold;
+  }
+
+  .project-forme {
+    @apply bg-accent-red h-20 relative z-[1];
+    top: 13rem;
+    left: -10px;
+    margin-bottom: 5rem;
+  }
+
+  .special { color: #ea4c89; }
+
+  @media (max-width: 768px) {
+    .project-wrapper { @apply flex-col-reverse; }
+
+    .project-left { width: 0; height: 0; min-height: 0; }
+
+    .project-right { @apply w-full h-[450px] min-h-0; }
+
+    .project-title-area { margin-left: 0; }
+
+    .big-title-project { font-size: 4.5em; left: 0.47em; margin-top: 0.7em; }
+
+    .big-title-project-b { font-size: 4.5em; margin-top: 0.8em; left: 0.47em; }
+
+    .project-para-block,
+    .project-para-block-tall { align-items: center; margin-top: 9em; width: 100vw; }
+
+    .project-para { width: calc(100% - 100px); }
+
+    .project-forme { height: 4.5em; width: 16em; top: 3.5em; left: 2em; }
+  }
+}
+
+/* ── Mobile nav button animations ──────────────────────────────────────────── */
+@layer utilities {
+  .btn-mobile-base {
+    @apply bg-accent h-16 w-16 rounded-full border-none fixed z-[90] transition-[transform] duration-500;
+    top: 87vh;
+    left: 80vw;
+  }
+
+  .btn-hidden-home     { @apply btn-mobile-base translate-y-0; box-shadow: 10px 10px 16px -10px rgba(0,0,0,0.3); }
+  .btn-showed-home     { @apply btn-mobile-base; transform: translateY(-18em); z-index: 199; box-shadow: 10px 10px 16px -10px rgba(0,0,0,1); }
+  .btn-hidden-projects { @apply btn-mobile-base translate-y-0; box-shadow: 10px 10px 16px -10px rgba(0,0,0,0.3); }
+  .btn-showed-projects { @apply btn-mobile-base; transform: translateY(-12em); z-index: 199; box-shadow: 10px 10px 16px -10px rgba(0,0,0,1); }
+  .btn-hidden-contact  { @apply btn-mobile-base translate-y-0; box-shadow: 10px 10px 16px -10px rgba(0,0,0,0.3); }
+  .btn-showed-contact  { @apply btn-mobile-base; transform: translateY(-6em); z-index: 199; box-shadow: 10px 10px 16px -10px rgba(0,0,0,1); }
+  .btn-m-hidden-gmail    { @apply btn-mobile-base translate-x-0; box-shadow: 10px 10px 16px -10px rgba(0,0,0,0.3); }
+  .btn-m-showed-gmail    { @apply btn-mobile-base; transform: translateX(-6em); z-index: 199; box-shadow: 10px 10px 16px -10px rgba(0,0,0,1); }
+  .btn-m-hidden-github   { @apply btn-mobile-base translate-x-0; box-shadow: 10px 10px 16px -10px rgba(0,0,0,0.3); }
+  .btn-m-showed-github   { @apply btn-mobile-base; transform: translateX(-18em); z-index: 199; box-shadow: 10px 10px 16px -10px rgba(0,0,0,1); }
+  .btn-m-hidden-dribbble { @apply btn-mobile-base translate-x-0; box-shadow: 10px 10px 16px -10px rgba(0,0,0,0.3); }
+  .btn-m-showed-dribbble { @apply btn-mobile-base; transform: translateX(-12em); z-index: 199; box-shadow: 10px 10px 16px -10px rgba(0,0,0,1); }
 }
