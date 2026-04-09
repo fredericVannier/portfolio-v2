@@ -1,4 +1,4 @@
-import Fade from "react-reveal/Fade";
+import Reveal from "../components/Reveal";
 import petsitImg from "../images/petsit-showcase.jpeg";
 
 const Petsit = () => {
@@ -6,14 +6,14 @@ const Petsit = () => {
     <div className="project-wrapper">
       <div className="project-left">
         <div className="project-title-area">
-          <Fade up delay={500}>
+          <Reveal direction="up" delay={500}>
             <h1 className="big-title-project">Petsit</h1>
-          </Fade>
-          <Fade left delay={500}>
+          </Reveal>
+          <Reveal direction="left" delay={500}>
             <div className="project-forme" style={{ width: "17rem" }} />
-          </Fade>
+          </Reveal>
         </div>
-        <Fade up delay={400}>
+        <Reveal direction="up" delay={400}>
           <div className="project-para-block">
             <p className="project-para">
               Petsit est une application permettant de mettre en relation les
@@ -31,8 +31,7 @@ const Petsit = () => {
               utilisant les langages{" "}
               <span className="text-accent-red font-semibold">HTML, CSS, HBS, NodeJS, Express</span> et{" "}
               <span className="text-accent-red font-semibold">Javascript</span>. Le déploiement est effectué avec Heroku.
-              <br />
-              <br />
+              <br /><br />
               <div className="project-links">
                 <a href="https://github.com/Falconairio/Petsit" target="_blank" rel="noopener noreferrer">
                   <p>Voir le code</p>
@@ -40,11 +39,11 @@ const Petsit = () => {
               </div>
             </p>
           </div>
-        </Fade>
+        </Reveal>
       </div>
-      <Fade down delay={400}>
+      <Reveal direction="down" delay={400}>
         <div className="project-right" style={{ backgroundImage: `url(${petsitImg})` }} />
-      </Fade>
+      </Reveal>
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import Fade from "react-reveal/Fade";
+import Reveal from "../components/Reveal";
 import spaceImg from "../images/spaceExplorer.png";
 
 const SpaceExplorer = () => {
@@ -6,18 +6,18 @@ const SpaceExplorer = () => {
     <div className="project-wrapper">
       <div className="project-left">
         <div className="project-title-area">
-          <Fade up delay={500}>
+          <Reveal direction="up" delay={500}>
             <h1 className="big-title-project">Space</h1>
-          </Fade>
+          </Reveal>
           <br />
-          <Fade up delay={500}>
+          <Reveal direction="up" delay={500}>
             <h1 className="big-title-project-b">Explorer</h1>
-          </Fade>
-          <Fade left delay={200}>
+          </Reveal>
+          <Reveal direction="left" delay={200}>
             <div className="project-forme" style={{ width: "25rem" }} />
-          </Fade>
+          </Reveal>
         </div>
-        <Fade up delay={400}>
+        <Reveal direction="up" delay={400}>
           <div className="project-para-block-tall">
             <p className="project-para">
               Space Explorer est un jeu d'aventure 2D reprenant les codes bien
@@ -31,10 +31,8 @@ const SpaceExplorer = () => {
             <p className="project-para">
               Ce projet est entièrement réalisé seul avec les langages{" "}
               <span className="text-accent-red font-semibold">HTML, CSS</span> et{" "}
-              <span className="text-accent-red font-semibold">Javascript</span>. Le déploiement
-              est effectué avec Github.
-              <br />
-              <br />
+              <span className="text-accent-red font-semibold">Javascript</span>. Le déploiement est effectué avec Github.
+              <br /><br />
               <div className="project-links">
                 <a href="https://fred011.github.io/Space-Explorer/" target="_blank" rel="noopener noreferrer">
                   <p className="hover:text-accent transition-colors">Jouer!</p>
@@ -45,11 +43,11 @@ const SpaceExplorer = () => {
               </div>
             </p>
           </div>
-        </Fade>
+        </Reveal>
       </div>
-      <Fade down delay={400}>
+      <Reveal direction="down" delay={400}>
         <div className="project-right" style={{ backgroundImage: `url(${spaceImg})` }} />
-      </Fade>
+      </Reveal>
     </div>
   );
 };

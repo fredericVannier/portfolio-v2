@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Fade from "react-reveal/Fade";
+import Reveal from "../components/Reveal";
 import emailjs from "@emailjs/browser";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -40,7 +40,7 @@ const Contact = () => {
   };
 
   return (
-    <Fade delay={200}>
+    <Reveal delay={200}>
       <div className="bg-main text-white min-h-screen w-full">
         <div className="flex flex-col">
           <h2 className="text-[40px] mt-[25vh] ml-[23vw] leading-[1.4] max-md:ml-[10vw] max-md:text-[1.5em]">
@@ -150,7 +150,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </Fade>
+    </Reveal>
   );
 };
 

@@ -21,6 +21,4 @@ declare module "*.gif" {
 }
 
 // Libraries without type declarations
-declare module "react-reveal/Fade";
-declare module "react-reveal/Slide";
 declare module "react-slideshow-image";
